@@ -1,0 +1,562 @@
+# This output was generated with AUGUSTUS (version 2.4).
+# AUGUSTUS is a gene prediction tool for eukaryotes written by Mario Stanke (mstanke@gwdg.de)
+# and Oliver Keller (keller@cs.uni-goettingen.de).
+# Please cite: Mario Stanke, Mark Diekhans, Robert Baertsch, David Haussler (2008),
+# Using native and syntenically mapped cDNA alignments to improve de novo gene finding
+# Bioinformatics 24: 637-644, doi 10.1093/bioinformatics/btn013
+# No extrinsic information on sequences given.
+# Initialising the parameters ...
+# arabidopsis version. Use species specific transition matrix: /home/ubuntu/Bio/augustus-2.4/config/species/arabidopsis/arabidopsis_trans_shadow_partial_utr.pbl
+# Looks like tmp_opt_arabidopsis/curtest is in genbank format. Augustus uses the annotation for evaluation of accuracy.
+# Read in 7 genbank sequences.
+#
+# ----- sequence number 1 (length = 2421, name = region-9124) -----
+#
+
+# annotation: 
+# Sequence region-9124 length=2421
+region-9124	database	start_codon	931	933	.	+	0	transcript_id "region-9124-1.1"; gene_id "region-9124-1";
+region-9124	database	intron	1036	1137	.	+	.	transcript_id "region-9124-1.1"; gene_id "region-9124-1";
+region-9124	database	intron	1306	1391	.	+	.	transcript_id "region-9124-1.1"; gene_id "region-9124-1";
+region-9124	database	CDS	931	1035	.	+	2	transcript_id "region-9124-1.1"; gene_id "region-9124-1";
+region-9124	database	exon	931	1035	.	+	.	transcript_id "region-9124-1.1"; gene_id "region-9124-1";
+region-9124	database	CDS	1138	1305	.	+	2	transcript_id "region-9124-1.1"; gene_id "region-9124-1";
+region-9124	database	exon	1138	1305	.	+	.	transcript_id "region-9124-1.1"; gene_id "region-9124-1";
+region-9124	database	CDS	1392	1421	.	+	1	transcript_id "region-9124-1.1"; gene_id "region-9124-1";
+region-9124	database	exon	1392	1421	.	+	.	transcript_id "region-9124-1.1"; gene_id "region-9124-1";
+region-9124	database	stop_codon	1419	1421	.	+	0	transcript_id "region-9124-1.1"; gene_id "region-9124-1";
+done looking for equal groups. 0 equal
+groupList->size()=0
+# 0 hint groups are conflicting with too many others. Deleting them.
+0 pairs of groups are incompatible (0 groups total).
+0 ordered pairs of groups have a weakerThan relationship
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 1 on both strands
+# examining piece 1..2421 (2421 bp)
+Make 0 additional prediction runs.
+R= PredictionRun=(0..2421)
+# (none)
+a-posteriori probability of viterbi path
+----------------------------------------
+a-posteriori probability of correct path
+
+1 times were the paths equally likely (identical).
+sorted quotients of the rest:
+
+0 quotients were between 1 and 10
+
+
+*******      Evaluation of gene prediction     *******
+
+numerator: 0
+denominator: 0
+d2: 0
+---------------------------------------------\
+                 | sensitivity | specificity |         CC |         TN |         TP |         FP |         FN |
+---------------------------------------------|
+nucleotide level |           0 |        -nan |        -nan |        2118 |           0 |           0 |         303
+---------------------------------------------/
+
+----------------------------------------------------------------------------------------------------------\
+           |  #pred |  #anno |      |    FP = false pos. |    FN = false neg. |             |             |
+           | total/ | total/ |   TP |--------------------|--------------------| sensitivity | specificity | 
+           | unique | unique |      | part | ovlp | wrng | part | ovlp | wrng |             |             |
+----------------------------------------------------------------------------------------------------------|
+           |        |        |      |                  0 |                  3 |             |             |
+exon level |      0 |      3 |    0 | ------------------ | ------------------ |           0 |        -nan |
+           |      0 |      3 |      |    0 |    0 |    0 |    0 |    0 |    3 |             |             |
+----------------------------------------------------------------------------------------------------------/
+
+----------------------------------------------------------------------------\
+transcript | #pred | #anno |   TP |   FP |   FN | sensitivity | specificity |
+----------------------------------------------------------------------------|
+gene level |     0 |     1 |    0 |    0 |    1 |           0 |        -nan |
+----------------------------------------------------------------------------/
+#
+# ----- sequence number 2 (length = 7108, name = region-3410) -----
+#
+
+# annotation: 
+# Sequence region-3410 length=7108
+region-3410	database	stop_codon	1001	1003	.	-	0	transcript_id "region-3410-1.1"; gene_id "region-3410-1";
+region-3410	database	intron	3120	5239	.	-	.	transcript_id "region-3410-1.1"; gene_id "region-3410-1";
+region-3410	database	CDS	1001	3119	.	-	0	transcript_id "region-3410-1.1"; gene_id "region-3410-1";
+region-3410	database	exon	1001	3119	.	-	.	transcript_id "region-3410-1.1"; gene_id "region-3410-1";
+region-3410	database	CDS	5240	6108	.	-	2	transcript_id "region-3410-1.1"; gene_id "region-3410-1";
+region-3410	database	exon	5240	6108	.	-	.	transcript_id "region-3410-1.1"; gene_id "region-3410-1";
+region-3410	database	start_codon	6106	6108	.	-	0	transcript_id "region-3410-1.1"; gene_id "region-3410-1";
+done looking for equal groups. 0 equal
+groupList->size()=0
+# 0 hint groups are conflicting with too many others. Deleting them.
+0 pairs of groups are incompatible (0 groups total).
+0 ordered pairs of groups have a weakerThan relationship
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 2 on both strands
+# examining piece 1..7108 (7108 bp)
+Make 0 additional prediction runs.
+R= PredictionRun=(0..7108)
+# (none)
+a-posteriori probability of viterbi path
+----------------------------------------
+a-posteriori probability of correct path
+
+1 times were the paths equally likely (identical).
+sorted quotients of the rest:
+
+0 quotients were between 1 and 10
+
+
+*******      Evaluation of gene prediction     *******
+
+numerator: 0
+denominator: 0
+d2: 0
+---------------------------------------------\
+                 | sensitivity | specificity |         CC |         TN |         TP |         FP |         FN |
+---------------------------------------------|
+nucleotide level |           0 |        -nan |        -nan |        4120 |           0 |           0 |        2988
+---------------------------------------------/
+
+----------------------------------------------------------------------------------------------------------\
+           |  #pred |  #anno |      |    FP = false pos. |    FN = false neg. |             |             |
+           | total/ | total/ |   TP |--------------------|--------------------| sensitivity | specificity | 
+           | unique | unique |      | part | ovlp | wrng | part | ovlp | wrng |             |             |
+----------------------------------------------------------------------------------------------------------|
+           |        |        |      |                  0 |                  2 |             |             |
+exon level |      0 |      2 |    0 | ------------------ | ------------------ |           0 |        -nan |
+           |      0 |      2 |      |    0 |    0 |    0 |    0 |    0 |    2 |             |             |
+----------------------------------------------------------------------------------------------------------/
+
+----------------------------------------------------------------------------\
+transcript | #pred | #anno |   TP |   FP |   FN | sensitivity | specificity |
+----------------------------------------------------------------------------|
+gene level |     0 |     1 |    0 |    0 |    1 |           0 |        -nan |
+----------------------------------------------------------------------------/
+#
+# ----- sequence number 3 (length = 7760, name = region-3271) -----
+#
+
+# annotation: 
+# Sequence region-3271 length=7760
+region-3271	database	stop_codon	957	959	.	-	0	transcript_id "region-3271-1.1"; gene_id "region-3271-1";
+region-3271	database	intron	1622	5270	.	-	.	transcript_id "region-3271-1.1"; gene_id "region-3271-1";
+region-3271	database	intron	6077	6135	.	-	.	transcript_id "region-3271-1.1"; gene_id "region-3271-1";
+region-3271	database	intron	6238	6329	.	-	.	transcript_id "region-3271-1.1"; gene_id "region-3271-1";
+region-3271	database	CDS	957	1621	.	-	1	transcript_id "region-3271-1.1"; gene_id "region-3271-1";
+region-3271	database	exon	957	1621	.	-	.	transcript_id "region-3271-1.1"; gene_id "region-3271-1";
+region-3271	database	CDS	5271	6076	.	-	0	transcript_id "region-3271-1.1"; gene_id "region-3271-1";
+region-3271	database	exon	5271	6076	.	-	.	transcript_id "region-3271-1.1"; gene_id "region-3271-1";
+region-3271	database	CDS	6136	6237	.	-	0	transcript_id "region-3271-1.1"; gene_id "region-3271-1";
+region-3271	database	exon	6136	6237	.	-	.	transcript_id "region-3271-1.1"; gene_id "region-3271-1";
+region-3271	database	CDS	6330	6760	.	-	2	transcript_id "region-3271-1.1"; gene_id "region-3271-1";
+region-3271	database	exon	6330	6760	.	-	.	transcript_id "region-3271-1.1"; gene_id "region-3271-1";
+region-3271	database	start_codon	6758	6760	.	-	0	transcript_id "region-3271-1.1"; gene_id "region-3271-1";
+done looking for equal groups. 0 equal
+groupList->size()=0
+# 0 hint groups are conflicting with too many others. Deleting them.
+0 pairs of groups are incompatible (0 groups total).
+0 ordered pairs of groups have a weakerThan relationship
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 3 on both strands
+# examining piece 1..7760 (7760 bp)
+Make 0 additional prediction runs.
+R= PredictionRun=(0..7760)
+# (none)
+a-posteriori probability of viterbi path
+----------------------------------------
+a-posteriori probability of correct path
+
+1 times were the paths equally likely (identical).
+sorted quotients of the rest:
+
+0 quotients were between 1 and 10
+
+
+*******      Evaluation of gene prediction     *******
+
+numerator: 0
+denominator: 0
+d2: 0
+---------------------------------------------\
+                 | sensitivity | specificity |         CC |         TN |         TP |         FP |         FN |
+---------------------------------------------|
+nucleotide level |           0 |        -nan |        -nan |        5756 |           0 |           0 |        2004
+---------------------------------------------/
+
+----------------------------------------------------------------------------------------------------------\
+           |  #pred |  #anno |      |    FP = false pos. |    FN = false neg. |             |             |
+           | total/ | total/ |   TP |--------------------|--------------------| sensitivity | specificity | 
+           | unique | unique |      | part | ovlp | wrng | part | ovlp | wrng |             |             |
+----------------------------------------------------------------------------------------------------------|
+           |        |        |      |                  0 |                  4 |             |             |
+exon level |      0 |      4 |    0 | ------------------ | ------------------ |           0 |        -nan |
+           |      0 |      4 |      |    0 |    0 |    0 |    0 |    0 |    4 |             |             |
+----------------------------------------------------------------------------------------------------------/
+
+----------------------------------------------------------------------------\
+transcript | #pred | #anno |   TP |   FP |   FN | sensitivity | specificity |
+----------------------------------------------------------------------------|
+gene level |     0 |     1 |    0 |    0 |    1 |           0 |        -nan |
+----------------------------------------------------------------------------/
+#
+# ----- sequence number 4 (length = 7701, name = region-9319) -----
+#
+
+# annotation: 
+# Sequence region-9319 length=7701
+region-9319	database	start_codon	861	863	.	+	0	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	intron	930	1263	.	+	.	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	intron	1333	1585	.	+	.	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	intron	1637	1773	.	+	.	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	intron	1912	2004	.	+	.	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	intron	2068	2250	.	+	.	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	intron	2367	2587	.	+	.	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	intron	2673	3222	.	+	.	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	intron	3283	3918	.	+	.	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	intron	3965	4335	.	+	.	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	intron	4410	4674	.	+	.	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	intron	4726	4798	.	+	.	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	intron	5000	5071	.	+	.	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	intron	5117	5387	.	+	.	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	intron	5482	5550	.	+	.	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	intron	5697	5834	.	+	.	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	intron	6065	6460	.	+	.	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	intron	6522	6614	.	+	.	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	CDS	861	929	.	+	2	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	exon	861	929	.	+	.	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	CDS	1264	1332	.	+	2	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	exon	1264	1332	.	+	.	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	CDS	1586	1636	.	+	2	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	exon	1586	1636	.	+	.	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	CDS	1774	1911	.	+	2	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	exon	1774	1911	.	+	.	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	CDS	2005	2067	.	+	2	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	exon	2005	2067	.	+	.	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	CDS	2251	2366	.	+	2	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	exon	2251	2366	.	+	.	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	CDS	2588	2672	.	+	0	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	exon	2588	2672	.	+	.	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	CDS	3223	3282	.	+	2	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	exon	3223	3282	.	+	.	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	CDS	3919	3964	.	+	2	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	exon	3919	3964	.	+	.	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	CDS	4336	4409	.	+	1	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	exon	4336	4409	.	+	.	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	CDS	4675	4725	.	+	2	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	exon	4675	4725	.	+	.	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	CDS	4799	4999	.	+	2	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	exon	4799	4999	.	+	.	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	CDS	5072	5116	.	+	2	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	exon	5072	5116	.	+	.	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	CDS	5388	5481	.	+	2	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	exon	5388	5481	.	+	.	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	CDS	5551	5696	.	+	1	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	exon	5551	5696	.	+	.	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	CDS	5835	6064	.	+	2	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	exon	5835	6064	.	+	.	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	CDS	6461	6521	.	+	0	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	exon	6461	6521	.	+	.	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	CDS	6615	6701	.	+	1	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	exon	6615	6701	.	+	.	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+region-9319	database	stop_codon	6699	6701	.	+	0	transcript_id "region-9319-1.1"; gene_id "region-9319-1";
+done looking for equal groups. 0 equal
+groupList->size()=0
+# 0 hint groups are conflicting with too many others. Deleting them.
+0 pairs of groups are incompatible (0 groups total).
+0 ordered pairs of groups have a weakerThan relationship
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 4 on both strands
+# examining piece 1..7701 (7701 bp)
+Make 0 additional prediction runs.
+R= PredictionRun=(0..7701)
+# (none)
+a-posteriori probability of viterbi path
+----------------------------------------
+a-posteriori probability of correct path
+
+1 times were the paths equally likely (identical).
+sorted quotients of the rest:
+
+0 quotients were between 1 and 10
+
+
+*******      Evaluation of gene prediction     *******
+
+numerator: 0
+denominator: 0
+d2: 0
+---------------------------------------------\
+                 | sensitivity | specificity |         CC |         TN |         TP |         FP |         FN |
+---------------------------------------------|
+nucleotide level |           0 |        -nan |        -nan |        6015 |           0 |           0 |        1686
+---------------------------------------------/
+
+----------------------------------------------------------------------------------------------------------\
+           |  #pred |  #anno |      |    FP = false pos. |    FN = false neg. |             |             |
+           | total/ | total/ |   TP |--------------------|--------------------| sensitivity | specificity | 
+           | unique | unique |      | part | ovlp | wrng | part | ovlp | wrng |             |             |
+----------------------------------------------------------------------------------------------------------|
+           |        |        |      |                  0 |                 18 |             |             |
+exon level |      0 |     18 |    0 | ------------------ | ------------------ |           0 |        -nan |
+           |      0 |     18 |      |    0 |    0 |    0 |    0 |    0 |   18 |             |             |
+----------------------------------------------------------------------------------------------------------/
+
+----------------------------------------------------------------------------\
+transcript | #pred | #anno |   TP |   FP |   FN | sensitivity | specificity |
+----------------------------------------------------------------------------|
+gene level |     0 |     1 |    0 |    0 |    1 |           0 |        -nan |
+----------------------------------------------------------------------------/
+#
+# ----- sequence number 5 (length = 3707, name = region-7197) -----
+#
+
+# annotation: 
+# Sequence region-7197 length=3707
+region-7197	database	stop_codon	1001	1003	.	-	0	transcript_id "region-7197-1.1"; gene_id "region-7197-1";
+region-7197	database	intron	1259	1829	.	-	.	transcript_id "region-7197-1.1"; gene_id "region-7197-1";
+region-7197	database	intron	2161	2237	.	-	.	transcript_id "region-7197-1.1"; gene_id "region-7197-1";
+region-7197	database	CDS	1001	1258	.	-	2	transcript_id "region-7197-1.1"; gene_id "region-7197-1";
+region-7197	database	exon	1001	1258	.	-	.	transcript_id "region-7197-1.1"; gene_id "region-7197-1";
+region-7197	database	CDS	1830	2160	.	-	0	transcript_id "region-7197-1.1"; gene_id "region-7197-1";
+region-7197	database	exon	1830	2160	.	-	.	transcript_id "region-7197-1.1"; gene_id "region-7197-1";
+region-7197	database	CDS	2238	2707	.	-	2	transcript_id "region-7197-1.1"; gene_id "region-7197-1";
+region-7197	database	exon	2238	2707	.	-	.	transcript_id "region-7197-1.1"; gene_id "region-7197-1";
+region-7197	database	start_codon	2705	2707	.	-	0	transcript_id "region-7197-1.1"; gene_id "region-7197-1";
+done looking for equal groups. 0 equal
+groupList->size()=0
+# 0 hint groups are conflicting with too many others. Deleting them.
+0 pairs of groups are incompatible (0 groups total).
+0 ordered pairs of groups have a weakerThan relationship
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 5 on both strands
+# examining piece 1..3707 (3707 bp)
+Make 0 additional prediction runs.
+R= PredictionRun=(0..3707)
+# (none)
+a-posteriori probability of viterbi path
+----------------------------------------
+a-posteriori probability of correct path
+
+1 times were the paths equally likely (identical).
+sorted quotients of the rest:
+
+0 quotients were between 1 and 10
+
+
+*******      Evaluation of gene prediction     *******
+
+numerator: 0
+denominator: 0
+d2: 0
+---------------------------------------------\
+                 | sensitivity | specificity |         CC |         TN |         TP |         FP |         FN |
+---------------------------------------------|
+nucleotide level |           0 |        -nan |        -nan |        2648 |           0 |           0 |        1059
+---------------------------------------------/
+
+----------------------------------------------------------------------------------------------------------\
+           |  #pred |  #anno |      |    FP = false pos. |    FN = false neg. |             |             |
+           | total/ | total/ |   TP |--------------------|--------------------| sensitivity | specificity | 
+           | unique | unique |      | part | ovlp | wrng | part | ovlp | wrng |             |             |
+----------------------------------------------------------------------------------------------------------|
+           |        |        |      |                  0 |                  3 |             |             |
+exon level |      0 |      3 |    0 | ------------------ | ------------------ |           0 |        -nan |
+           |      0 |      3 |      |    0 |    0 |    0 |    0 |    0 |    3 |             |             |
+----------------------------------------------------------------------------------------------------------/
+
+----------------------------------------------------------------------------\
+transcript | #pred | #anno |   TP |   FP |   FN | sensitivity | specificity |
+----------------------------------------------------------------------------|
+gene level |     0 |     1 |    0 |    0 |    1 |           0 |        -nan |
+----------------------------------------------------------------------------/
+#
+# ----- sequence number 6 (length = 5307, name = region-9422) -----
+#
+
+# annotation: 
+# Sequence region-9422 length=5307
+region-9422	database	start_codon	528	530	.	+	0	transcript_id "region-9422-1.1"; gene_id "region-9422-1";
+region-9422	database	intron	648	817	.	+	.	transcript_id "region-9422-1.1"; gene_id "region-9422-1";
+region-9422	database	intron	899	1592	.	+	.	transcript_id "region-9422-1.1"; gene_id "region-9422-1";
+region-9422	database	intron	1678	2090	.	+	.	transcript_id "region-9422-1.1"; gene_id "region-9422-1";
+region-9422	database	intron	2159	2399	.	+	.	transcript_id "region-9422-1.1"; gene_id "region-9422-1";
+region-9422	database	intron	2502	2795	.	+	.	transcript_id "region-9422-1.1"; gene_id "region-9422-1";
+region-9422	database	intron	2886	3127	.	+	.	transcript_id "region-9422-1.1"; gene_id "region-9422-1";
+region-9422	database	intron	3203	3277	.	+	.	transcript_id "region-9422-1.1"; gene_id "region-9422-1";
+region-9422	database	intron	3311	3788	.	+	.	transcript_id "region-9422-1.1"; gene_id "region-9422-1";
+region-9422	database	intron	3864	4449	.	+	.	transcript_id "region-9422-1.1"; gene_id "region-9422-1";
+region-9422	database	intron	4501	4742	.	+	.	transcript_id "region-9422-1.1"; gene_id "region-9422-1";
+region-9422	database	CDS	528	647	.	+	2	transcript_id "region-9422-1.1"; gene_id "region-9422-1";
+region-9422	database	exon	528	647	.	+	.	transcript_id "region-9422-1.1"; gene_id "region-9422-1";
+region-9422	database	CDS	818	898	.	+	2	transcript_id "region-9422-1.1"; gene_id "region-9422-1";
+region-9422	database	exon	818	898	.	+	.	transcript_id "region-9422-1.1"; gene_id "region-9422-1";
+region-9422	database	CDS	1593	1677	.	+	2	transcript_id "region-9422-1.1"; gene_id "region-9422-1";
+region-9422	database	exon	1593	1677	.	+	.	transcript_id "region-9422-1.1"; gene_id "region-9422-1";
+region-9422	database	CDS	2091	2158	.	+	1	transcript_id "region-9422-1.1"; gene_id "region-9422-1";
+region-9422	database	exon	2091	2158	.	+	.	transcript_id "region-9422-1.1"; gene_id "region-9422-1";
+region-9422	database	CDS	2400	2501	.	+	2	transcript_id "region-9422-1.1"; gene_id "region-9422-1";
+region-9422	database	exon	2400	2501	.	+	.	transcript_id "region-9422-1.1"; gene_id "region-9422-1";
+region-9422	database	CDS	2796	2885	.	+	2	transcript_id "region-9422-1.1"; gene_id "region-9422-1";
+region-9422	database	exon	2796	2885	.	+	.	transcript_id "region-9422-1.1"; gene_id "region-9422-1";
+region-9422	database	CDS	3128	3202	.	+	2	transcript_id "region-9422-1.1"; gene_id "region-9422-1";
+region-9422	database	exon	3128	3202	.	+	.	transcript_id "region-9422-1.1"; gene_id "region-9422-1";
+region-9422	database	CDS	3278	3310	.	+	2	transcript_id "region-9422-1.1"; gene_id "region-9422-1";
+region-9422	database	exon	3278	3310	.	+	.	transcript_id "region-9422-1.1"; gene_id "region-9422-1";
+region-9422	database	CDS	3789	3863	.	+	2	transcript_id "region-9422-1.1"; gene_id "region-9422-1";
+region-9422	database	exon	3789	3863	.	+	.	transcript_id "region-9422-1.1"; gene_id "region-9422-1";
+region-9422	database	CDS	4450	4500	.	+	2	transcript_id "region-9422-1.1"; gene_id "region-9422-1";
+region-9422	database	exon	4450	4500	.	+	.	transcript_id "region-9422-1.1"; gene_id "region-9422-1";
+region-9422	database	CDS	4743	4823	.	+	1	transcript_id "region-9422-1.1"; gene_id "region-9422-1";
+region-9422	database	exon	4743	4823	.	+	.	transcript_id "region-9422-1.1"; gene_id "region-9422-1";
+region-9422	database	stop_codon	4821	4823	.	+	0	transcript_id "region-9422-1.1"; gene_id "region-9422-1";
+done looking for equal groups. 0 equal
+groupList->size()=0
+# 0 hint groups are conflicting with too many others. Deleting them.
+0 pairs of groups are incompatible (0 groups total).
+0 ordered pairs of groups have a weakerThan relationship
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 6 on both strands
+# examining piece 1..5307 (5307 bp)
+Make 0 additional prediction runs.
+R= PredictionRun=(0..5307)
+# (none)
+a-posteriori probability of viterbi path
+----------------------------------------
+a-posteriori probability of correct path
+
+1 times were the paths equally likely (identical).
+sorted quotients of the rest:
+
+0 quotients were between 1 and 10
+
+
+*******      Evaluation of gene prediction     *******
+
+numerator: 0
+denominator: 0
+d2: 0
+---------------------------------------------\
+                 | sensitivity | specificity |         CC |         TN |         TP |         FP |         FN |
+---------------------------------------------|
+nucleotide level |           0 |        -nan |        -nan |        4446 |           0 |           0 |         861
+---------------------------------------------/
+
+----------------------------------------------------------------------------------------------------------\
+           |  #pred |  #anno |      |    FP = false pos. |    FN = false neg. |             |             |
+           | total/ | total/ |   TP |--------------------|--------------------| sensitivity | specificity | 
+           | unique | unique |      | part | ovlp | wrng | part | ovlp | wrng |             |             |
+----------------------------------------------------------------------------------------------------------|
+           |        |        |      |                  0 |                 11 |             |             |
+exon level |      0 |     11 |    0 | ------------------ | ------------------ |           0 |        -nan |
+           |      0 |     11 |      |    0 |    0 |    0 |    0 |    0 |   11 |             |             |
+----------------------------------------------------------------------------------------------------------/
+
+----------------------------------------------------------------------------\
+transcript | #pred | #anno |   TP |   FP |   FN | sensitivity | specificity |
+----------------------------------------------------------------------------|
+gene level |     0 |     1 |    0 |    0 |    1 |           0 |        -nan |
+----------------------------------------------------------------------------/
+#
+# ----- sequence number 7 (length = 7965, name = region-12854) -----
+#
+
+# annotation: 
+# Sequence region-12854 length=7965
+region-12854	database	start_codon	1001	1003	.	+	0	transcript_id "region-12854-1.1"; gene_id "region-12854-1";
+region-12854	database	intron	1497	6027	.	+	.	transcript_id "region-12854-1.1"; gene_id "region-12854-1";
+region-12854	database	CDS	1001	1496	.	+	2	transcript_id "region-12854-1.1"; gene_id "region-12854-1";
+region-12854	database	exon	1001	1496	.	+	.	transcript_id "region-12854-1.1"; gene_id "region-12854-1";
+region-12854	database	CDS	6028	6965	.	+	0	transcript_id "region-12854-1.1"; gene_id "region-12854-1";
+region-12854	database	exon	6028	6965	.	+	.	transcript_id "region-12854-1.1"; gene_id "region-12854-1";
+region-12854	database	stop_codon	6963	6965	.	+	0	transcript_id "region-12854-1.1"; gene_id "region-12854-1";
+done looking for equal groups. 0 equal
+groupList->size()=0
+# 0 hint groups are conflicting with too many others. Deleting them.
+0 pairs of groups are incompatible (0 groups total).
+0 ordered pairs of groups have a weakerThan relationship
+# Constraints/Hints:
+# (none)
+# Predicted genes for sequence number 7 on both strands
+# examining piece 1..7965 (7965 bp)
+Make 0 additional prediction runs.
+R= PredictionRun=(0..7965)
+# (none)
+a-posteriori probability of viterbi path
+----------------------------------------
+a-posteriori probability of correct path
+
+1 times were the paths equally likely (identical).
+sorted quotients of the rest:
+
+0 quotients were between 1 and 10
+
+
+*******      Evaluation of gene prediction     *******
+
+numerator: 0
+denominator: 0
+d2: 0
+---------------------------------------------\
+                 | sensitivity | specificity |         CC |         TN |         TP |         FP |         FN |
+---------------------------------------------|
+nucleotide level |           0 |        -nan |        -nan |        6531 |           0 |           0 |        1434
+---------------------------------------------/
+
+----------------------------------------------------------------------------------------------------------\
+           |  #pred |  #anno |      |    FP = false pos. |    FN = false neg. |             |             |
+           | total/ | total/ |   TP |--------------------|--------------------| sensitivity | specificity | 
+           | unique | unique |      | part | ovlp | wrng | part | ovlp | wrng |             |             |
+----------------------------------------------------------------------------------------------------------|
+           |        |        |      |                  0 |                  2 |             |             |
+exon level |      0 |      2 |    0 | ------------------ | ------------------ |           0 |        -nan |
+           |      0 |      2 |      |    0 |    0 |    0 |    0 |    0 |    2 |             |             |
+----------------------------------------------------------------------------------------------------------/
+
+----------------------------------------------------------------------------\
+transcript | #pred | #anno |   TP |   FP |   FN | sensitivity | specificity |
+----------------------------------------------------------------------------|
+gene level |     0 |     1 |    0 |    0 |    1 |           0 |        -nan |
+----------------------------------------------------------------------------/
+a-posteriori probability of viterbi path
+----------------------------------------
+a-posteriori probability of correct path
+
+7 times were the paths equally likely (identical).
+sorted quotients of the rest:
+
+0 quotients were between 1 and 10
+
+
+*******      Evaluation of gene prediction     *******
+
+---------------------------------------------\
+                 | sensitivity | specificity |         CC |         TN |         TP |         FP |         FN |
+---------------------------------------------|
+nucleotide level |           0 |        -nan |   2.82e-317 |           0 |           0 |           0 |       10335
+---------------------------------------------/
+
+----------------------------------------------------------------------------------------------------------\
+           |  #pred |  #anno |      |    FP = false pos. |    FN = false neg. |             |             |
+           | total/ | total/ |   TP |--------------------|--------------------| sensitivity | specificity | 
+           | unique | unique |      | part | ovlp | wrng | part | ovlp | wrng |             |             |
+----------------------------------------------------------------------------------------------------------|
+           |        |        |      |                  0 |                 43 |             |             |
+exon level |      0 |     43 |    0 | ------------------ | ------------------ |           0 |        -nan |
+           |      0 |     43 |      |    0 |    0 |    0 |    0 |    0 |   43 |             |             |
+----------------------------------------------------------------------------------------------------------/
+
+----------------------------------------------------------------------------\
+transcript | #pred | #anno |   TP |   FP |   FN | sensitivity | specificity |
+----------------------------------------------------------------------------|
+gene level |     0 |     7 |    0 |    0 |    7 |           0 |        -nan |
+----------------------------------------------------------------------------/
+longest predicted intron had length 0
+# total time: 2.48e+03
+# command line:
+# augustus --species=arabidopsis --AUGUSTUS_CONFIG_PATH=/home/ubuntu/Bio/augustus-2.4/config/ --/Constant/dss_end=4 --/Constant/dss_start=3 --/Constant/ass_start=3 --/Constant/ass_end=2 --/Constant/ass_upwindow_size=30 --/IntronModel/d=100 --/IntronModel/ass_motif_memory=3 --/IntronModel/ass_motif_radius=3 --/ExonModel/tis_motif_memory=3 --/ExonModel/tis_motif_radius=2 --/Constant/trans_init_window=20 --/Constant/init_coding_len=15 --/ExonModel/patpseudocount=5.0 --/ExonModel/etpseudocount=3 --/ExonModel/etorder=2 --/Constant/intterm_coding_len=5 --/ExonModel/slope_of_bandwidth=0.3 --/ExonModel/minwindowcount=10 --/IGenicModel/patpseudocount=5.0 --/IntronModel/patpseudocount=5.0 --/IntronModel/slope_of_bandwidth=0.4 --/IntronModel/minwindowcount=4 --/IntronModel/asspseudocount=0.00266 --/IntronModel/dsspseudocount=0.0005 --/IntronModel/dssneighborfactor=0.00173 --/ExonModel/minPatSum=233.3 --/Constant/probNinCoding=0.23 --/Constant/decomp_num_steps=5 tmp_opt_arabidopsis/curtest

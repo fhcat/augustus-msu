@@ -1,0 +1,2836 @@
+# Read in 150 genbank sequences.
+Quantiles of the GC contents in the training set:
+0%	0.355
+5%	0.373	10%	0.385
+15%	0.39	20%	0.396
+25%	0.402	30%	0.409
+35%	0.412	40%	0.417
+45%	0.425	50%	0.427
+55%	0.432	60%	0.441
+65%	0.449	70%	0.461
+75%	0.467	80%	0.477
+85%	0.492	90%	0.507
+95%	0.527	100%	0.543
+HMM-training the parameters...
+i= 0 bc= (0.237, 0.263, 0.263, 0.237)
+ ** building model for exons *EXON*
+sequence: region-9124
+initial exon: 94:	930, 1034
+type 2
+rgc: 0.514
+internal exon: 103:	1137, 1304
+type 2
+rgc: 0.488
+terminal exon: 113:	1391, 1420
+type 3
+rgc: 0.467
+sequence: region-12933
+initial exon: 117:	1000, 1546
+type 1
+rgc: 0.702
+terminal exon: 130:	2222, 2946
+type 2
+rgc: 0.494
+sequence: region-11186
+initial exon: 117:	1000, 1346
+type 1
+rgc: 0.686
+terminal exon: 133:	1545, 1602
+type 2
+rgc: 0.483
+sequence: region-8388
+initial exon: 117:	1000, 1364
+type 1
+rgc: 0.784
+internal exon: 125:	2556, 2950
+type 3
+rgc: 0.466
+internal exon: 121:	3033, 3226
+type 2
+rgc: 0.49
+terminal exon: 136:	3450, 3845
+type 2
+rgc: 0.568
+sequence: region-10238
+initial exon: 95:	1000, 1179
+type 3
+rgc: 0.4
+internal exon: 104:	1748, 1933
+type 3
+rgc: 0.376
+internal exon: 107:	4093, 4474
+type 3
+rgc: 0.408
+internal exon: 104:	5087, 5178
+type 3
+rgc: 0.402
+internal exon: 104:	5386, 6135
+type 3
+rgc: 0.395
+internal exon: 104:	6367, 6645
+type 3
+rgc: 0.427
+internal exon: 104:	7375, 7530
+type 3
+rgc: 0.391
+internal exon: 107:	9585, 10026
+type 3
+rgc: 0.41
+terminal exon: 113:	10196, 10206
+type 3
+rgc: 0.273
+sequence: region-3410
+initial exon: 118:	1000, 1868
+type 2
+rgc: 0.585
+terminal exon: 134:	3989, 6107
+type 3
+rgc: 0.436
+sequence: region-10751
+initial exon: 93:	999, 1523
+type 1
+rgc: 0.707
+terminal exon: 111:	2049, 2840
+type 1
+rgc: 0.697
+sequence: region-3271
+initial exon: 117:	1000, 1430
+type 1
+rgc: 0.705
+internal exon: 123:	1523, 1624
+type 1
+rgc: 0.647
+internal exon: 123:	1684, 2489
+type 1
+rgc: 0.712
+terminal exon: 129:	6139, 6803
+type 1
+rgc: 0.704
+sequence: region-13424
+initial exon: 100:	1000, 1028
+type 2
+rgc: 0.483
+terminal exon: 113:	1206, 2481
+type 3
+rgc: 0.444
+sequence: region-9319
+initial exon: 93:	860, 928
+type 1
+rgc: 0.725
+internal exon: 103:	1263, 1331
+type 2
+rgc: 0.536
+internal exon: 103:	1585, 1635
+type 2
+rgc: 0.49
+internal exon: 104:	1773, 1910
+type 3
+rgc: 0.428
+internal exon: 104:	2004, 2066
+type 3
+rgc: 0.397
+internal exon: 110:	2250, 2365
+type 3
+rgc: 0.405
+internal exon: 104:	2587, 2671
+type 3
+rgc: 0.4
+internal exon: 103:	3222, 3281
+type 2
+rgc: 0.55
+internal exon: 107:	3918, 3963
+type 3
+rgc: 0.413
+internal exon: 104:	4335, 4408
+type 3
+rgc: 0.432
+internal exon: 104:	4674, 4724
+type 3
+rgc: 0.373
+internal exon: 104:	4798, 4998
+type 3
+rgc: 0.378
+internal exon: 104:	5071, 5115
+type 3
+rgc: 0.356
+internal exon: 107:	5387, 5480
+type 3
+rgc: 0.457
+internal exon: 104:	5550, 5695
+type 3
+rgc: 0.432
+internal exon: 110:	5834, 6063
+type 3
+rgc: 0.443
+internal exon: 104:	6460, 6520
+type 3
+rgc: 0.426
+terminal exon: 112:	6614, 6700
+type 2
+rgc: 0.563
+sequence: region-7197
+initial exon: 117:	1000, 1469
+type 1
+rgc: 0.743
+internal exon: 123:	1547, 1877
+type 1
+rgc: 0.677
+terminal exon: 136:	2449, 2706
+type 2
+rgc: 0.574
+sequence: region-9422
+initial exon: 93:	527, 646
+type 1
+rgc: 0.717
+internal exon: 102:	817, 897
+type 1
+rgc: 0.642
+internal exon: 107:	1592, 1676
+type 3
+rgc: 0.447
+internal exon: 103:	2090, 2157
+type 2
+rgc: 0.5
+internal exon: 104:	2399, 2500
+type 3
+rgc: 0.461
+internal exon: 104:	2795, 2884
+type 3
+rgc: 0.4
+internal exon: 104:	3127, 3201
+type 3
+rgc: 0.387
+internal exon: 104:	3277, 3309
+type 3
+rgc: 0.394
+internal exon: 104:	3788, 3862
+type 3
+rgc: 0.453
+internal exon: 104:	4449, 4499
+type 3
+rgc: 0.451
+terminal exon: 113:	4742, 4822
+type 3
+rgc: 0.395
+sequence: region-9113
+initial exon: 93:	1000, 1149
+type 1
+rgc: 0.7
+internal exon: 107:	1502, 1559
+type 3
+rgc: 0.431
+internal exon: 104:	1652, 1899
+type 3
+rgc: 0.423
+internal exon: 104:	1974, 2090
+type 3
+rgc: 0.444
+internal exon: 107:	2798, 2858
+type 3
+rgc: 0.361
+internal exon: 104:	3349, 3443
+type 3
+rgc: 0.421
+internal exon: 104:	3537, 3611
+type 3
+rgc: 0.413
+internal exon: 110:	3805, 3890
+type 3
+rgc: 0.419
+internal exon: 107:	4018, 4067
+type 3
+rgc: 0.42
+internal exon: 104:	4156, 4196
+type 3
+rgc: 0.39
+internal exon: 104:	4273, 4437
+type 3
+rgc: 0.436
+internal exon: 104:	4523, 4558
+type 3
+rgc: 0.389
+internal exon: 110:	4693, 4760
+type 3
+rgc: 0.412
+internal exon: 103:	4851, 4911
+type 2
+rgc: 0.508
+terminal exon: 111:	5367, 5882
+type 1
+rgc: 0.715
+sequence: region-12854
+initial exon: 96:	1000, 1495
+type 1
+rgc: 0.696
+terminal exon: 111:	6027, 6964
+type 1
+rgc: 0.701
+sequence: region-558
+initial exon: 93:	1000, 1302
+type 1
+rgc: 0.703
+internal exon: 110:	2428, 2492
+type 3
+rgc: 0.369
+terminal exon: 113:	3238, 3520
+type 3
+rgc: 0.339
+sequence: region-3051
+single exon: 90:	1000, 2259
+type 1
+rgc: 0.69
+sequence: region-9022
+initial exon: 117:	1000, 1398
+type 1
+rgc: 0.687
+internal exon: 127:	1512, 1570
+type 2
+rgc: 0.525
+internal exon: 125:	2085, 2144
+type 3
+rgc: 0.4
+internal exon: 125:	2270, 2339
+type 3
+rgc: 0.429
+internal exon: 128:	2813, 2882
+type 3
+rgc: 0.414
+internal exon: 122:	2973, 2999
+type 3
+rgc: 0.37
+terminal exon: 130:	3084, 3133
+type 2
+rgc: 0.52
+sequence: region-5959
+initial exon: 117:	1000, 1277
+type 1
+rgc: 0.741
+internal exon: 125:	1535, 1574
+type 3
+rgc: 0.45
+internal exon: 128:	1702, 1761
+type 3
+rgc: 0.417
+internal exon: 128:	2214, 2275
+type 3
+rgc: 0.435
+internal exon: 125:	2839, 2894
+type 3
+rgc: 0.375
+internal exon: 121:	2981, 3014
+type 2
+rgc: 0.471
+internal exon: 125:	3343, 3415
+type 3
+rgc: 0.411
+internal exon: 128:	3497, 3589
+type 3
+rgc: 0.376
+terminal exon: 137:	3765, 3986
+type 3
+rgc: 0.41
+sequence: region-3215
+initial exon: 98:	1000, 1183
+type 3
+rgc: 0.451
+internal exon: 110:	1559, 1928
+type 3
+rgc: 0.416
+terminal exon: 112:	2039, 2768
+type 2
+rgc: 0.479
+sequence: region-9330
+initial exon: 117:	1000, 1363
+type 1
+rgc: 0.651
+internal exon: 120:	2387, 2685
+type 1
+rgc: 0.639
+internal exon: 128:	4214, 4247
+type 3
+rgc: 0.441
+terminal exon: 129:	4544, 5439
+type 1
+rgc: 0.698
+sequence: region-5955
+initial exon: 95:	1000, 1119
+type 3
+rgc: 0.375
+internal exon: 104:	1250, 1423
+type 3
+rgc: 0.431
+internal exon: 110:	1517, 1623
+type 3
+rgc: 0.449
+internal exon: 107:	1981, 2312
+type 3
+rgc: 0.355
+terminal exon: 113:	2402, 2895
+type 3
+rgc: 0.455
+sequence: region-8148
+initial exon: 117:	1000, 1268
+type 1
+rgc: 0.654
+terminal exon: 132:	1470, 1899
+type 1
+rgc: 0.63
+sequence: region-10047
+initial exon: 118:	1000, 1746
+type 2
+rgc: 0.58
+internal exon: 127:	2113, 2190
+type 2
+rgc: 0.474
+terminal exon: 136:	2775, 3995
+type 2
+rgc: 0.493
+sequence: region-10836
+initial exon: 97:	1000, 1099
+type 2
+rgc: 0.54
+terminal exon: 112:	1246, 1649
+type 2
+rgc: 0.564
+sequence: region-2252
+initial exon: 118:	1000, 1099
+type 2
+rgc: 0.62
+internal exon: 121:	1992, 2124
+type 2
+rgc: 0.586
+internal exon: 124:	2217, 2288
+type 2
+rgc: 0.5
+internal exon: 125:	2374, 2448
+type 3
+rgc: 0.387
+internal exon: 125:	2571, 2642
+type 3
+rgc: 0.403
+internal exon: 125:	2729, 2800
+type 3
+rgc: 0.319
+internal exon: 125:	2937, 3008
+type 3
+rgc: 0.389
+internal exon: 125:	3084, 3149
+type 3
+rgc: 0.379
+internal exon: 125:	3231, 3296
+type 3
+rgc: 0.333
+internal exon: 124:	3370, 3671
+type 2
+rgc: 0.474
+internal exon: 122:	3762, 4051
+type 3
+rgc: 0.431
+internal exon: 128:	4431, 4702
+type 3
+rgc: 0.438
+internal exon: 125:	4928, 5063
+type 3
+rgc: 0.404
+internal exon: 127:	5245, 5375
+type 2
+rgc: 0.481
+internal exon: 124:	5487, 5643
+type 2
+rgc: 0.618
+terminal exon: 136:	5744, 5887
+type 2
+rgc: 0.576
+sequence: region-10928
+initial exon: 118:	1000, 1170
+type 2
+rgc: 0.48
+internal exon: 127:	1264, 1488
+type 2
+rgc: 0.627
+terminal exon: 136:	1895, 2269
+type 2
+rgc: 0.584
+sequence: region-13134
+initial exon: 93:	1000, 1503
+type 1
+rgc: 0.724
+internal exon: 109:	2313, 2365
+type 2
+rgc: 0.528
+internal exon: 107:	2727, 2818
+type 3
+rgc: 0.435
+internal exon: 106:	3184, 3267
+type 2
+rgc: 0.488
+internal exon: 104:	3451, 3545
+type 3
+rgc: 0.368
+internal exon: 107:	5798, 6014
+type 3
+rgc: 0.382
+internal exon: 110:	6134, 6368
+type 3
+rgc: 0.413
+internal exon: 104:	6471, 6624
+type 3
+rgc: 0.377
+terminal exon: 112:	6869, 7210
+type 2
+rgc: 0.518
+sequence: region-10732
+initial exon: 94:	1000, 1065
+type 2
+rgc: 0.606
+internal exon: 104:	1553, 1714
+type 3
+rgc: 0.457
+internal exon: 103:	2461, 2514
+type 2
+rgc: 0.519
+internal exon: 109:	2990, 3063
+type 2
+rgc: 0.514
+internal exon: 109:	3139, 3219
+type 2
+rgc: 0.63
+internal exon: 104:	4335, 4512
+type 3
+rgc: 0.461
+internal exon: 103:	4769, 4939
+type 2
+rgc: 0.579
+internal exon: 103:	5546, 5635
+type 2
+rgc: 0.6
+internal exon: 103:	5717, 5764
+type 2
+rgc: 0.521
+internal exon: 109:	5880, 5995
+type 2
+rgc: 0.509
+internal exon: 103:	6088, 6166
+type 2
+rgc: 0.532
+terminal exon: 112:	6534, 6656
+type 2
+rgc: 0.488
+sequence: region-7737
+initial exon: 99:	1000, 1190
+type 1
+rgc: 0.712
+internal exon: 105:	1559, 1791
+type 1
+rgc: 0.674
+internal exon: 108:	1909, 1999
+type 1
+rgc: 0.637
+internal exon: 103:	2578, 2626
+type 2
+rgc: 0.571
+internal exon: 109:	2819, 2910
+type 2
+rgc: 0.609
+internal exon: 108:	2981, 3094
+type 1
+rgc: 0.658
+internal exon: 102:	3169, 3868
+type 1
+rgc: 0.681
+internal exon: 108:	3965, 4032
+type 1
+rgc: 0.75
+internal exon: 108:	4322, 4456
+type 1
+rgc: 0.704
+internal exon: 105:	4558, 4775
+type 1
+rgc: 0.693
+terminal exon: 111:	4865, 5289
+type 1
+rgc: 0.706
+sequence: region-11883
+initial exon: 95:	1000, 2193
+type 3
+rgc: 0.412
+terminal exon: 113:	4028, 4387
+type 3
+rgc: 0.414
+sequence: region-7848
+initial exon: 96:	1000, 1153
+type 1
+rgc: 0.721
+internal exon: 110:	2250, 2328
+type 3
+rgc: 0.443
+internal exon: 104:	2999, 3101
+type 3
+rgc: 0.447
+internal exon: 107:	3203, 3323
+type 3
+rgc: 0.463
+internal exon: 104:	3652, 3740
+type 3
+rgc: 0.416
+internal exon: 103:	3832, 3981
+type 2
+rgc: 0.5
+terminal exon: 112:	4062, 4148
+type 2
+rgc: 0.552
+sequence: region-3863
+initial exon: 94:	1000, 1011
+type 2
+rgc: 0.583
+internal exon: 110:	1235, 1362
+type 3
+rgc: 0.398
+internal exon: 110:	1473, 2192
+type 3
+rgc: 0.39
+internal exon: 104:	4162, 5365
+type 3
+rgc: 0.385
+internal exon: 104:	5575, 5934
+type 3
+rgc: 0.406
+internal exon: 107:	6023, 7253
+type 3
+rgc: 0.405
+internal exon: 104:	7392, 7657
+type 3
+rgc: 0.414
+terminal exon: 113:	7796, 10393
+type 3
+rgc: 0.432
+sequence: region-13945
+initial exon: 117:	1000, 1038
+type 1
+rgc: 0.667
+internal exon: 128:	2395, 2480
+type 3
+rgc: 0.384
+internal exon: 124:	3844, 3889
+type 2
+rgc: 0.522
+internal exon: 128:	3960, 4164
+type 3
+rgc: 0.434
+internal exon: 122:	4247, 4316
+type 3
+rgc: 0.4
+internal exon: 125:	4788, 4839
+type 3
+rgc: 0.365
+internal exon: 127:	5285, 5428
+type 2
+rgc: 0.486
+internal exon: 128:	5604, 5723
+type 3
+rgc: 0.467
+terminal exon: 136:	5882, 5929
+type 2
+rgc: 0.583
+sequence: region-13544
+initial exon: 93:	1000, 1419
+type 1
+rgc: 0.748
+internal exon: 102:	1529, 1768
+type 1
+rgc: 0.646
+internal exon: 103:	1875, 1940
+type 2
+rgc: 0.53
+internal exon: 104:	2064, 2132
+type 3
+rgc: 0.449
+internal exon: 104:	2232, 2303
+type 3
+rgc: 0.444
+internal exon: 103:	2392, 2610
+type 2
+rgc: 0.484
+internal exon: 107:	2708, 2801
+type 3
+rgc: 0.457
+terminal exon: 112:	2896, 2933
+type 2
+rgc: 0.474
+sequence: region-1635
+initial exon: 117:	1000, 1930
+type 1
+rgc: 0.71
+terminal exon: 129:	4836, 5527
+type 1
+rgc: 0.692
+sequence: region-14175
+initial exon: 117:	1000, 1200
+type 1
+rgc: 0.756
+internal exon: 127:	1640, 1811
+type 2
+rgc: 0.5
+internal exon: 122:	2160, 2313
+type 3
+rgc: 0.416
+internal exon: 124:	2384, 2447
+type 2
+rgc: 0.5
+internal exon: 128:	2993, 3100
+type 3
+rgc: 0.444
+internal exon: 128:	3343, 3468
+type 3
+rgc: 0.421
+internal exon: 128:	3551, 3783
+type 3
+rgc: 0.429
+internal exon: 124:	5153, 5355
+type 2
+rgc: 0.488
+terminal exon: 131:	5480, 5487
+type 3
+rgc: 0.25
+sequence: region-618
+initial exon: 117:	1000, 1862
+type 1
+rgc: 0.665
+terminal exon: 134:	1985, 3599
+type 3
+rgc: 0.452
+sequence: region-3409
+initial exon: 93:	528, 611
+type 1
+rgc: 0.667
+internal exon: 103:	1609, 1635
+type 2
+rgc: 0.519
+internal exon: 104:	2540, 2614
+type 3
+rgc: 0.387
+internal exon: 103:	2719, 2766
+type 2
+rgc: 0.5
+internal exon: 110:	2853, 2995
+type 3
+rgc: 0.469
+internal exon: 104:	3103, 3175
+type 3
+rgc: 0.397
+internal exon: 110:	3259, 3320
+type 3
+rgc: 0.387
+internal exon: 107:	3475, 3572
+type 3
+rgc: 0.408
+terminal exon: 113:	3649, 3758
+type 3
+rgc: 0.418
+sequence: region-10012
+single exon: 115:	1000, 2055
+type 2
+rgc: 0.565
+sequence: region-7962
+initial exon: 119:	1000, 1124
+type 3
+rgc: 0.448
+terminal exon: 133:	2034, 2706
+type 2
+rgc: 0.492
+sequence: region-5937
+initial exon: 96:	1000, 1288
+type 1
+rgc: 0.737
+internal exon: 102:	4124, 5430
+type 1
+rgc: 0.694
+internal exon: 106:	5871, 6183
+type 2
+rgc: 0.62
+terminal exon: 111:	6520, 7577
+type 1
+rgc: 0.671
+sequence: region-8797
+initial exon: 117:	1000, 1398
+type 1
+rgc: 0.754
+internal exon: 128:	2045, 2248
+type 3
+rgc: 0.441
+internal exon: 128:	2333, 2543
+type 3
+rgc: 0.427
+internal exon: 122:	2616, 2877
+type 3
+rgc: 0.42
+internal exon: 125:	3006, 3377
+type 3
+rgc: 0.417
+internal exon: 125:	3901, 3996
+type 3
+rgc: 0.417
+terminal exon: 134:	4446, 4662
+type 3
+rgc: 0.465
+sequence: region-9294
+initial exon: 117:	553, 646
+type 1
+rgc: 0.66
+internal exon: 121:	733, 788
+type 2
+rgc: 0.571
+internal exon: 127:	885, 1066
+type 2
+rgc: 0.478
+internal exon: 125:	1145, 1193
+type 3
+rgc: 0.327
+internal exon: 128:	1939, 2042
+type 3
+rgc: 0.365
+internal exon: 125:	2145, 2209
+type 3
+rgc: 0.431
+internal exon: 122:	2334, 2404
+type 3
+rgc: 0.408
+internal exon: 128:	2800, 2859
+type 3
+rgc: 0.417
+internal exon: 128:	3343, 3456
+type 3
+rgc: 0.421
+internal exon: 128:	4592, 4716
+type 3
+rgc: 0.392
+internal exon: 125:	4793, 4844
+type 3
+rgc: 0.404
+internal exon: 128:	5244, 5306
+type 3
+rgc: 0.429
+internal exon: 128:	5464, 5573
+type 3
+rgc: 0.418
+internal exon: 125:	5899, 5991
+type 3
+rgc: 0.441
+internal exon: 125:	6089, 6170
+type 3
+rgc: 0.378
+internal exon: 127:	6562, 6639
+type 2
+rgc: 0.487
+internal exon: 127:	6903, 6978
+type 2
+rgc: 0.487
+internal exon: 122:	7067, 7116
+type 3
+rgc: 0.42
+terminal exon: 137:	7199, 7240
+type 3
+rgc: 0.405
+sequence: region-2768
+initial exon: 100:	1000, 1094
+type 2
+rgc: 0.611
+terminal exon: 112:	1250, 1376
+type 2
+rgc: 0.504
+sequence: region-1030
+initial exon: 93:	1000, 1974
+type 1
+rgc: 0.704
+terminal exon: 111:	2720, 3286
+type 1
+rgc: 0.688
+sequence: region-12497
+initial exon: 117:	1000, 1322
+type 1
+rgc: 0.715
+internal exon: 125:	1507, 1596
+type 3
+rgc: 0.378
+internal exon: 125:	1709, 1951
+type 3
+rgc: 0.428
+internal exon: 125:	2065, 2167
+type 3
+rgc: 0.456
+internal exon: 128:	2939, 3168
+type 3
+rgc: 0.43
+terminal exon: 134:	3736, 3946
+type 3
+rgc: 0.398
+sequence: region-5737
+initial exon: 118:	264, 444
+type 2
+rgc: 0.63
+terminal exon: 129:	510, 985
+type 1
+rgc: 0.706
+sequence: region-4992
+single exon: 91:	1000, 2622
+type 2
+rgc: 0.501
+sequence: region-3369
+initial exon: 97:	1000, 1495
+type 2
+rgc: 0.579
+internal exon: 104:	3052, 3191
+type 3
+rgc: 0.464
+internal exon: 104:	3408, 3500
+type 3
+rgc: 0.462
+internal exon: 110:	3861, 3922
+type 3
+rgc: 0.387
+internal exon: 107:	4484, 4590
+type 3
+rgc: 0.411
+internal exon: 107:	5947, 6036
+type 3
+rgc: 0.444
+terminal exon: 112:	6120, 6160
+type 2
+rgc: 0.488
+sequence: region-2437
+initial exon: 93:	1000, 1308
+type 1
+rgc: 0.78
+terminal exon: 112:	1412, 5995
+type 2
+rgc: 0.534
+sequence: region-4710
+initial exon: 118:	1000, 1420
+type 2
+rgc: 0.504
+internal exon: 121:	1954, 2106
+type 2
+rgc: 0.49
+internal exon: 122:	2197, 2400
+type 3
+rgc: 0.436
+internal exon: 122:	2486, 2951
+type 3
+rgc: 0.466
+terminal exon: 134:	3052, 3187
+type 3
+rgc: 0.456
+sequence: region-2415
+initial exon: 99:	652, 938
+type 1
+rgc: 0.659
+terminal exon: 111:	1029, 1269
+type 1
+rgc: 0.718
+sequence: region-13627
+initial exon: 99:	1000, 1658
+type 1
+rgc: 0.649
+internal exon: 103:	1765, 1900
+type 2
+rgc: 0.559
+terminal exon: 112:	3025, 3504
+type 2
+rgc: 0.477
+sequence: region-7473
+initial exon: 97:	1000, 2221
+type 2
+rgc: 0.54
+terminal exon: 113:	2305, 2408
+type 3
+rgc: 0.433
+sequence: region-11860
+initial exon: 93:	1000, 1083
+type 1
+rgc: 0.679
+internal exon: 107:	2128, 2206
+type 3
+rgc: 0.468
+internal exon: 104:	2276, 2316
+type 3
+rgc: 0.439
+internal exon: 107:	2448, 2526
+type 3
+rgc: 0.405
+internal exon: 106:	2608, 2712
+type 2
+rgc: 0.486
+internal exon: 104:	2953, 3062
+type 3
+rgc: 0.464
+internal exon: 109:	3244, 3425
+type 2
+rgc: 0.538
+internal exon: 103:	3643, 3712
+type 2
+rgc: 0.5
+internal exon: 103:	3800, 3973
+type 2
+rgc: 0.471
+internal exon: 103:	4107, 4211
+type 2
+rgc: 0.486
+internal exon: 103:	4418, 4549
+type 2
+rgc: 0.515
+internal exon: 104:	4796, 4891
+type 3
+rgc: 0.427
+terminal exon: 112:	5007, 5306
+type 2
+rgc: 0.587
+sequence: region-6476
+initial exon: 118:	1000, 1281
+type 2
+rgc: 0.514
+internal exon: 128:	1749, 2015
+type 3
+rgc: 0.408
+internal exon: 128:	2302, 2651
+type 3
+rgc: 0.454
+terminal exon: 133:	2989, 3520
+type 2
+rgc: 0.5
+sequence: region-10742
+initial exon: 117:	1000, 1111
+type 1
+rgc: 0.723
+internal exon: 120:	1209, 1292
+type 1
+rgc: 0.655
+internal exon: 120:	1401, 1583
+type 1
+rgc: 0.672
+internal exon: 121:	2131, 2301
+type 2
+rgc: 0.491
+internal exon: 122:	3139, 3348
+type 3
+rgc: 0.443
+internal exon: 122:	3530, 3618
+type 3
+rgc: 0.449
+terminal exon: 136:	4011, 4715
+type 2
+rgc: 0.535
+sequence: region-9930
+initial exon: 117:	1000, 1142
+type 1
+rgc: 0.727
+internal exon: 124:	3749, 3800
+type 2
+rgc: 0.577
+internal exon: 128:	4001, 4058
+type 3
+rgc: 0.345
+internal exon: 122:	4667, 4761
+type 3
+rgc: 0.421
+internal exon: 128:	4838, 4941
+type 3
+rgc: 0.385
+internal exon: 125:	5913, 6041
+type 3
+rgc: 0.442
+terminal exon: 134:	6500, 7709
+type 3
+rgc: 0.417
+sequence: region-10875
+initial exon: 117:	1000, 1065
+type 1
+rgc: 0.667
+internal exon: 126:	1137, 1232
+type 1
+rgc: 0.667
+internal exon: 126:	1324, 1401
+type 1
+rgc: 0.705
+internal exon: 128:	3744, 3824
+type 3
+rgc: 0.469
+internal exon: 128:	3919, 4138
+type 3
+rgc: 0.432
+internal exon: 122:	4230, 4288
+type 3
+rgc: 0.441
+internal exon: 128:	5407, 5456
+type 3
+rgc: 0.38
+internal exon: 125:	5547, 5634
+type 3
+rgc: 0.386
+internal exon: 128:	5720, 5956
+type 3
+rgc: 0.405
+internal exon: 128:	6042, 6134
+type 3
+rgc: 0.462
+internal exon: 128:	6794, 6898
+type 3
+rgc: 0.429
+internal exon: 128:	7133, 7249
+type 3
+rgc: 0.376
+terminal exon: 137:	7481, 7558
+type 3
+rgc: 0.41
+sequence: region-1985
+initial exon: 118:	1000, 1838
+type 2
+rgc: 0.472
+terminal exon: 134:	3798, 4758
+type 3
+rgc: 0.389
+sequence: region-3402
+initial exon: 118:	1000, 1013
+type 2
+rgc: 0.571
+internal exon: 124:	1394, 1483
+type 2
+rgc: 0.578
+internal exon: 125:	2927, 3042
+type 3
+rgc: 0.414
+internal exon: 122:	4179, 4306
+type 3
+rgc: 0.453
+terminal exon: 136:	4592, 5080
+type 2
+rgc: 0.499
+sequence: region-1322
+initial exon: 96:	1000, 1165
+type 1
+rgc: 0.777
+internal exon: 102:	1266, 1375
+type 1
+rgc: 0.691
+internal exon: 106:	1473, 1545
+type 2
+rgc: 0.521
+internal exon: 110:	1653, 1800
+type 3
+rgc: 0.432
+internal exon: 110:	2532, 2798
+type 3
+rgc: 0.464
+internal exon: 104:	2899, 3241
+type 3
+rgc: 0.458
+internal exon: 103:	3330, 3467
+type 2
+rgc: 0.5
+internal exon: 103:	4054, 4179
+type 2
+rgc: 0.516
+internal exon: 104:	4291, 4503
+type 3
+rgc: 0.432
+internal exon: 107:	4583, 4829
+type 3
+rgc: 0.462
+internal exon: 104:	4912, 5111
+type 3
+rgc: 0.435
+internal exon: 103:	5203, 5556
+type 2
+rgc: 0.542
+terminal exon: 112:	5649, 6233
+type 2
+rgc: 0.615
+sequence: region-12723
+initial exon: 96:	1000, 1480
+type 1
+rgc: 0.732
+internal exon: 106:	3099, 3359
+type 2
+rgc: 0.586
+internal exon: 106:	3488, 4363
+type 2
+rgc: 0.615
+terminal exon: 111:	4854, 5344
+type 1
+rgc: 0.699
+sequence: region-10470
+single exon: 91:	1000, 3162
+type 2
+rgc: 0.612
+sequence: region-5304
+single exon: 91:	1000, 2664
+type 2
+rgc: 0.579
+sequence: region-12955
+initial exon: 118:	1000, 1605
+type 2
+rgc: 0.584
+internal exon: 128:	2199, 2284
+type 3
+rgc: 0.372
+internal exon: 125:	2521, 2694
+type 3
+rgc: 0.448
+internal exon: 125:	2839, 2953
+type 3
+rgc: 0.365
+internal exon: 128:	3444, 3541
+type 3
+rgc: 0.347
+internal exon: 125:	4414, 4549
+type 3
+rgc: 0.434
+terminal exon: 137:	4994, 5062
+type 3
+rgc: 0.348
+sequence: region-9223
+initial exon: 118:	1000, 1163
+type 2
+rgc: 0.5
+internal exon: 124:	1276, 1371
+type 2
+rgc: 0.625
+terminal exon: 133:	1481, 1916
+type 2
+rgc: 0.596
+sequence: region-3064
+initial exon: 101:	1000, 1130
+type 3
+rgc: 0.435
+internal exon: 107:	2489, 4554
+type 3
+rgc: 0.437
+terminal exon: 113:	4647, 4723
+type 3
+rgc: 0.442
+sequence: region-14088
+initial exon: 119:	1000, 2238
+type 3
+rgc: 0.46
+internal exon: 128:	2641, 2760
+type 3
+rgc: 0.35
+internal exon: 128:	3435, 3551
+type 3
+rgc: 0.41
+internal exon: 128:	3662, 3751
+type 3
+rgc: 0.467
+internal exon: 128:	4762, 4869
+type 3
+rgc: 0.389
+terminal exon: 136:	5029, 5094
+type 2
+rgc: 0.515
+sequence: region-5947
+initial exon: 96:	1000, 1603
+type 1
+rgc: 0.685
+terminal exon: 113:	1726, 1733
+type 3
+rgc: 0.375
+sequence: region-1112
+initial exon: 100:	1000, 1049
+type 2
+rgc: 0.62
+internal exon: 103:	1176, 1290
+type 2
+rgc: 0.539
+internal exon: 104:	3492, 3851
+type 3
+rgc: 0.411
+internal exon: 106:	3932, 3995
+type 2
+rgc: 0.484
+internal exon: 104:	4159, 4298
+type 3
+rgc: 0.4
+internal exon: 104:	4404, 4712
+type 3
+rgc: 0.414
+terminal exon: 113:	4929, 5183
+type 3
+rgc: 0.38
+sequence: region-9255
+initial exon: 117:	1000, 1230
+type 1
+rgc: 0.723
+internal exon: 126:	1420, 1542
+type 1
+rgc: 0.74
+internal exon: 126:	1663, 1801
+type 1
+rgc: 0.691
+internal exon: 121:	5947, 6197
+type 2
+rgc: 0.546
+terminal exon: 136:	6285, 6476
+type 2
+rgc: 0.589
+sequence: region-7007
+initial exon: 117:	1000, 1120
+type 1
+rgc: 0.694
+internal exon: 121:	1403, 1505
+type 2
+rgc: 0.612
+internal exon: 124:	2155, 2414
+type 2
+rgc: 0.546
+internal exon: 121:	2519, 2576
+type 2
+rgc: 0.552
+terminal exon: 133:	2677, 2821
+type 2
+rgc: 0.586
+sequence: region-4478
+initial exon: 93:	1000, 1716
+type 1
+rgc: 0.709
+internal exon: 103:	1790, 2167
+type 2
+rgc: 0.563
+internal exon: 110:	2456, 2679
+type 3
+rgc: 0.451
+internal exon: 104:	2779, 2842
+type 3
+rgc: 0.422
+terminal exon: 113:	2928, 2969
+type 3
+rgc: 0.357
+sequence: region-353
+initial exon: 117:	1000, 1527
+type 1
+rgc: 0.672
+internal exon: 127:	1790, 1975
+type 2
+rgc: 0.505
+terminal exon: 136:	2081, 2359
+type 2
+rgc: 0.509
+sequence: region-977
+initial exon: 119:	1000, 1066
+type 3
+rgc: 0.448
+internal exon: 122:	1149, 1187
+type 3
+rgc: 0.385
+internal exon: 122:	1637, 1724
+type 3
+rgc: 0.386
+terminal exon: 134:	1910, 1994
+type 3
+rgc: 0.447
+sequence: region-9833
+initial exon: 118:	1000, 1022
+type 2
+rgc: 0.565
+internal exon: 125:	1116, 1351
+type 3
+rgc: 0.424
+internal exon: 121:	1426, 1566
+type 2
+rgc: 0.489
+terminal exon: 131:	1640, 2352
+type 3
+rgc: 0.421
+sequence: region-10941
+initial exon: 93:	1000, 2055
+type 1
+rgc: 0.687
+internal exon: 103:	2157, 2300
+type 2
+rgc: 0.5
+terminal exon: 112:	2411, 2830
+type 2
+rgc: 0.49
+sequence: region-8860
+initial exon: 117:	1000, 1405
+type 1
+rgc: 0.751
+internal exon: 120:	1622, 2031
+type 1
+rgc: 0.654
+terminal exon: 135:	3587, 3940
+type 1
+rgc: 0.703
+sequence: region-2994
+initial exon: 94:	1000, 1119
+type 2
+rgc: 0.492
+terminal exon: 113:	1227, 1568
+type 3
+rgc: 0.456
+sequence: region-10227
+initial exon: 93:	1000, 1356
+type 1
+rgc: 0.683
+internal exon: 106:	1466, 1526
+type 2
+rgc: 0.492
+internal exon: 104:	2490, 2584
+type 3
+rgc: 0.453
+internal exon: 110:	2676, 2788
+type 3
+rgc: 0.434
+internal exon: 104:	3168, 3336
+type 3
+rgc: 0.456
+internal exon: 106:	3409, 3448
+type 2
+rgc: 0.5
+internal exon: 103:	3529, 3593
+type 2
+rgc: 0.492
+internal exon: 104:	4217, 4330
+type 3
+rgc: 0.439
+internal exon: 110:	4419, 4483
+type 3
+rgc: 0.446
+internal exon: 104:	4659, 4815
+type 3
+rgc: 0.452
+internal exon: 103:	4899, 5018
+type 2
+rgc: 0.492
+internal exon: 109:	5179, 5267
+type 2
+rgc: 0.551
+terminal exon: 112:	5363, 5447
+type 2
+rgc: 0.553
+sequence: region-12411
+initial exon: 118:	1000, 1178
+type 2
+rgc: 0.592
+terminal exon: 133:	1251, 1614
+type 2
+rgc: 0.624
+sequence: region-7925
+initial exon: 118:	1000, 1543
+type 2
+rgc: 0.616
+terminal exon: 130:	1915, 2522
+type 2
+rgc: 0.592
+sequence: region-8912
+initial exon: 118:	1000, 1119
+type 2
+rgc: 0.533
+internal exon: 128:	1425, 1650
+type 3
+rgc: 0.442
+internal exon: 122:	1825, 2070
+type 3
+rgc: 0.411
+internal exon: 122:	2172, 2222
+type 3
+rgc: 0.353
+internal exon: 122:	2484, 2744
+type 3
+rgc: 0.406
+internal exon: 122:	2833, 2885
+type 3
+rgc: 0.396
+internal exon: 128:	2965, 3079
+type 3
+rgc: 0.461
+internal exon: 122:	3301, 3555
+type 3
+rgc: 0.447
+terminal exon: 130:	3977, 5025
+type 2
+rgc: 0.5
+sequence: region-11372
+initial exon: 93:	1000, 1506
+type 1
+rgc: 0.732
+internal exon: 103:	1764, 1850
+type 2
+rgc: 0.483
+internal exon: 110:	1984, 2174
+type 3
+rgc: 0.44
+internal exon: 104:	2866, 3061
+type 3
+rgc: 0.454
+internal exon: 110:	3198, 3262
+type 3
+rgc: 0.385
+internal exon: 109:	3393, 3494
+type 2
+rgc: 0.51
+terminal exon: 113:	4005, 4116
+type 3
+rgc: 0.411
+sequence: region-6593
+initial exon: 98:	1000, 1597
+type 3
+rgc: 0.378
+internal exon: 103:	1711, 1787
+type 2
+rgc: 0.481
+internal exon: 107:	2144, 2255
+type 3
+rgc: 0.42
+terminal exon: 112:	3038, 3552
+type 2
+rgc: 0.485
+sequence: region-3906
+initial exon: 119:	1000, 1025
+type 3
+rgc: 0.385
+internal exon: 125:	1106, 1195
+type 3
+rgc: 0.411
+terminal exon: 132:	1291, 2092
+type 1
+rgc: 0.716
+sequence: region-3587
+initial exon: 117:	1000, 1125
+type 1
+rgc: 0.667
+internal exon: 128:	2464, 2544
+type 3
+rgc: 0.432
+internal exon: 128:	2615, 2789
+type 3
+rgc: 0.446
+terminal exon: 130:	2887, 3566
+type 2
+rgc: 0.55
+sequence: region-12280
+initial exon: 117:	1000, 1054
+type 1
+rgc: 0.745
+internal exon: 122:	1984, 2195
+type 3
+rgc: 0.42
+internal exon: 128:	2394, 2472
+type 3
+rgc: 0.456
+internal exon: 122:	2626, 2913
+type 3
+rgc: 0.424
+internal exon: 122:	3614, 3768
+type 3
+rgc: 0.445
+internal exon: 128:	4045, 4161
+type 3
+rgc: 0.41
+internal exon: 128:	4271, 4456
+type 3
+rgc: 0.398
+terminal exon: 137:	4926, 5117
+type 3
+rgc: 0.385
+sequence: region-3954
+initial exon: 117:	1000, 1132
+type 1
+rgc: 0.647
+internal exon: 121:	1548, 1672
+type 2
+rgc: 0.592
+internal exon: 128:	1901, 2038
+type 3
+rgc: 0.399
+internal exon: 128:	2146, 2229
+type 3
+rgc: 0.452
+terminal exon: 137:	2980, 3114
+type 3
+rgc: 0.467
+sequence: region-804
+initial exon: 93:	1000, 1290
+type 1
+rgc: 0.698
+internal exon: 102:	1392, 1448
+type 1
+rgc: 0.649
+internal exon: 105:	1543, 1618
+type 1
+rgc: 0.645
+internal exon: 103:	1706, 1812
+type 2
+rgc: 0.505
+internal exon: 109:	1920, 1969
+type 2
+rgc: 0.56
+internal exon: 104:	2063, 2147
+type 3
+rgc: 0.424
+internal exon: 104:	2267, 2365
+type 3
+rgc: 0.434
+terminal exon: 113:	2737, 2973
+type 3
+rgc: 0.43
+sequence: region-3247
+initial exon: 117:	1000, 1050
+type 1
+rgc: 0.765
+internal exon: 127:	1216, 1320
+type 2
+rgc: 0.543
+internal exon: 128:	1885, 2025
+type 3
+rgc: 0.404
+internal exon: 127:	2134, 2214
+type 2
+rgc: 0.494
+internal exon: 128:	2306, 2375
+type 3
+rgc: 0.357
+internal exon: 122:	2454, 2518
+type 3
+rgc: 0.431
+internal exon: 128:	2620, 2783
+type 3
+rgc: 0.463
+internal exon: 125:	2863, 2934
+type 3
+rgc: 0.389
+internal exon: 125:	3010, 3052
+type 3
+rgc: 0.395
+internal exon: 128:	3185, 3460
+type 3
+rgc: 0.409
+internal exon: 128:	4192, 4301
+type 3
+rgc: 0.464
+internal exon: 125:	4419, 4686
+type 3
+rgc: 0.418
+internal exon: 128:	4823, 4974
+type 3
+rgc: 0.414
+terminal exon: 134:	6851, 6962
+type 3
+rgc: 0.393
+sequence: region-7024
+initial exon: 99:	1000, 1067
+type 1
+rgc: 0.75
+internal exon: 105:	1188, 1222
+type 1
+rgc: 0.686
+internal exon: 110:	1910, 1979
+type 3
+rgc: 0.414
+internal exon: 104:	2120, 2324
+type 3
+rgc: 0.415
+internal exon: 103:	2486, 2551
+type 2
+rgc: 0.485
+internal exon: 104:	3161, 3301
+type 3
+rgc: 0.461
+internal exon: 103:	3513, 3566
+type 2
+rgc: 0.519
+internal exon: 104:	3702, 3794
+type 3
+rgc: 0.409
+terminal exon: 113:	3893, 3940
+type 3
+rgc: 0.458
+sequence: region-9561
+initial exon: 96:	1000, 1054
+type 1
+rgc: 0.655
+internal exon: 103:	1130, 1179
+type 2
+rgc: 0.54
+internal exon: 103:	1294, 1326
+type 2
+rgc: 0.576
+internal exon: 104:	2365, 3438
+type 3
+rgc: 0.42
+internal exon: 104:	4009, 4560
+type 3
+rgc: 0.4
+internal exon: 104:	4647, 4757
+type 3
+rgc: 0.369
+internal exon: 104:	4846, 4935
+type 3
+rgc: 0.411
+internal exon: 104:	5015, 5086
+type 3
+rgc: 0.431
+internal exon: 103:	5807, 5917
+type 2
+rgc: 0.486
+internal exon: 107:	6850, 6976
+type 3
+rgc: 0.409
+internal exon: 104:	7369, 7568
+type 3
+rgc: 0.425
+internal exon: 104:	8430, 8582
+type 3
+rgc: 0.412
+terminal exon: 112:	8898, 9098
+type 2
+rgc: 0.507
+sequence: region-12713
+initial exon: 93:	1000, 1470
+type 1
+rgc: 0.692
+internal exon: 109:	1543, 1604
+type 2
+rgc: 0.484
+internal exon: 106:	1690, 1796
+type 2
+rgc: 0.514
+internal exon: 107:	1977, 2072
+type 3
+rgc: 0.458
+terminal exon: 112:	2212, 2261
+type 2
+rgc: 0.48
+sequence: region-10183
+initial exon: 93:	1000, 1284
+type 1
+rgc: 0.695
+internal exon: 110:	1991, 2535
+type 3
+rgc: 0.459
+internal exon: 110:	2646, 2732
+type 3
+rgc: 0.425
+internal exon: 110:	2825, 2881
+type 3
+rgc: 0.456
+internal exon: 106:	2972, 3210
+type 2
+rgc: 0.481
+internal exon: 103:	4003, 4208
+type 2
+rgc: 0.515
+terminal exon: 112:	4321, 4404
+type 2
+rgc: 0.512
+sequence: region-7730
+initial exon: 118:	1000, 1232
+type 2
+rgc: 0.618
+internal exon: 124:	1324, 1597
+type 2
+rgc: 0.478
+internal exon: 128:	1707, 1784
+type 3
+rgc: 0.449
+terminal exon: 137:	1874, 1921
+type 3
+rgc: 0.438
+sequence: region-14404
+initial exon: 117:	1000, 1273
+type 1
+rgc: 0.679
+internal exon: 120:	1358, 1488
+type 1
+rgc: 0.687
+internal exon: 127:	1767, 2000
+type 2
+rgc: 0.615
+internal exon: 126:	2113, 2380
+type 1
+rgc: 0.698
+terminal exon: 130:	2504, 2697
+type 2
+rgc: 0.521
+sequence: region-8323
+initial exon: 94:	668, 1045
+type 2
+rgc: 0.587
+internal exon: 107:	2250, 2307
+type 3
+rgc: 0.466
+internal exon: 110:	2384, 2423
+type 3
+rgc: 0.425
+internal exon: 107:	2523, 2590
+type 3
+rgc: 0.456
+internal exon: 107:	2671, 2745
+type 3
+rgc: 0.44
+internal exon: 104:	2825, 2880
+type 3
+rgc: 0.464
+internal exon: 104:	2981, 3025
+type 3
+rgc: 0.4
+internal exon: 103:	3114, 3365
+type 2
+rgc: 0.484
+internal exon: 110:	3451, 3545
+type 3
+rgc: 0.421
+internal exon: 104:	4059, 4149
+type 3
+rgc: 0.44
+internal exon: 104:	4242, 4352
+type 3
+rgc: 0.414
+internal exon: 103:	4452, 4646
+type 2
+rgc: 0.492
+terminal exon: 112:	4735, 4926
+type 2
+rgc: 0.531
+sequence: region-13264
+initial exon: 93:	1000, 1302
+type 1
+rgc: 0.752
+internal exon: 108:	1758, 2485
+type 1
+rgc: 0.712
+terminal exon: 112:	2572, 3001
+type 2
+rgc: 0.528
+sequence: region-2475
+initial exon: 117:	1000, 1422
+type 1
+rgc: 0.681
+terminal exon: 135:	2711, 3259
+type 1
+rgc: 0.729
+sequence: region-7808
+initial exon: 97:	1000, 1114
+type 2
+rgc: 0.513
+internal exon: 103:	1223, 1281
+type 2
+rgc: 0.475
+internal exon: 104:	1368, 3026
+type 3
+rgc: 0.447
+internal exon: 107:	4125, 4266
+type 3
+rgc: 0.458
+terminal exon: 113:	4349, 5034
+type 3
+rgc: 0.452
+sequence: region-5005
+initial exon: 117:	1000, 1123
+type 1
+rgc: 0.758
+internal exon: 120:	1262, 1328
+type 1
+rgc: 0.716
+internal exon: 124:	1902, 1995
+type 2
+rgc: 0.479
+internal exon: 128:	2643, 2705
+type 3
+rgc: 0.444
+internal exon: 127:	2831, 2920
+type 2
+rgc: 0.5
+internal exon: 128:	3750, 3818
+type 3
+rgc: 0.333
+internal exon: 128:	4291, 4372
+type 3
+rgc: 0.402
+internal exon: 122:	4470, 4519
+type 3
+rgc: 0.4
+internal exon: 128:	4694, 4897
+type 3
+rgc: 0.363
+internal exon: 128:	4968, 5038
+type 3
+rgc: 0.437
+internal exon: 125:	5118, 5187
+type 3
+rgc: 0.329
+internal exon: 128:	6459, 6524
+type 3
+rgc: 0.333
+internal exon: 128:	7565, 7717
+type 3
+rgc: 0.412
+internal exon: 128:	8499, 8623
+type 3
+rgc: 0.376
+terminal exon: 134:	8854, 8938
+type 3
+rgc: 0.447
+sequence: region-3011
+initial exon: 117:	1000, 1233
+type 1
+rgc: 0.735
+internal exon: 126:	1345, 1431
+type 1
+rgc: 0.713
+internal exon: 126:	1556, 1653
+type 1
+rgc: 0.653
+internal exon: 125:	2626, 2686
+type 3
+rgc: 0.459
+internal exon: 128:	2934, 3014
+type 3
+rgc: 0.407
+internal exon: 128:	3195, 3287
+type 3
+rgc: 0.398
+terminal exon: 137:	4111, 4227
+type 3
+rgc: 0.333
+sequence: region-1028
+initial exon: 93:	1000, 1332
+type 1
+rgc: 0.751
+internal exon: 109:	1440, 1570
+type 2
+rgc: 0.618
+terminal exon: 112:	2880, 4116
+type 2
+rgc: 0.608
+sequence: region-14027
+initial exon: 117:	1000, 1412
+type 1
+rgc: 0.775
+internal exon: 125:	2439, 2477
+type 3
+rgc: 0.436
+internal exon: 125:	2556, 2626
+type 3
+rgc: 0.394
+internal exon: 121:	3450, 3514
+type 2
+rgc: 0.508
+internal exon: 128:	3600, 3692
+type 3
+rgc: 0.398
+internal exon: 128:	3809, 3901
+type 3
+rgc: 0.419
+terminal exon: 137:	4690, 5109
+type 3
+rgc: 0.412
+sequence: region-6542
+initial exon: 118:	1000, 1059
+type 2
+rgc: 0.517
+internal exon: 127:	1686, 1782
+type 2
+rgc: 0.474
+internal exon: 122:	1997, 2214
+type 3
+rgc: 0.399
+internal exon: 128:	2587, 3143
+type 3
+rgc: 0.422
+terminal exon: 134:	4069, 4891
+type 3
+rgc: 0.469
+sequence: region-9390
+initial exon: 93:	1000, 1401
+type 1
+rgc: 0.721
+internal exon: 103:	1516, 1638
+type 2
+rgc: 0.528
+internal exon: 103:	3907, 4059
+type 2
+rgc: 0.536
+internal exon: 109:	4166, 4251
+type 2
+rgc: 0.5
+internal exon: 104:	4394, 4478
+type 3
+rgc: 0.412
+internal exon: 104:	4617, 4736
+type 3
+rgc: 0.417
+internal exon: 104:	4812, 4880
+type 3
+rgc: 0.391
+internal exon: 107:	5097, 5226
+type 3
+rgc: 0.431
+terminal exon: 113:	5313, 5389
+type 3
+rgc: 0.442
+sequence: region-10508
+initial exon: 117:	899, 1126
+type 1
+rgc: 0.671
+internal exon: 127:	1220, 1281
+type 2
+rgc: 0.565
+internal exon: 125:	1380, 1467
+type 3
+rgc: 0.432
+internal exon: 128:	1622, 1885
+type 3
+rgc: 0.451
+internal exon: 128:	1965, 2205
+type 3
+rgc: 0.423
+internal exon: 122:	2289, 2365
+type 3
+rgc: 0.442
+internal exon: 128:	2811, 2981
+type 3
+rgc: 0.433
+internal exon: 128:	3063, 3155
+type 3
+rgc: 0.419
+internal exon: 128:	3280, 3429
+type 3
+rgc: 0.387
+internal exon: 128:	3510, 3596
+type 3
+rgc: 0.425
+internal exon: 128:	3686, 3850
+type 3
+rgc: 0.376
+internal exon: 128:	3942, 4061
+type 3
+rgc: 0.425
+internal exon: 128:	4199, 4401
+type 3
+rgc: 0.424
+internal exon: 125:	4478, 4627
+type 3
+rgc: 0.367
+internal exon: 125:	4718, 4865
+type 3
+rgc: 0.446
+internal exon: 127:	5017, 5109
+type 2
+rgc: 0.473
+terminal exon: 136:	5184, 5288
+type 2
+rgc: 0.514
+sequence: region-6015
+initial exon: 96:	1000, 1198
+type 1
+rgc: 0.653
+internal exon: 102:	2251, 2537
+type 1
+rgc: 0.645
+terminal exon: 111:	2910, 3419
+type 1
+rgc: 0.667
+sequence: region-1700
+initial exon: 117:	1000, 1153
+type 1
+rgc: 0.656
+internal exon: 120:	1260, 1971
+type 1
+rgc: 0.716
+internal exon: 124:	2267, 2349
+type 2
+rgc: 0.542
+internal exon: 122:	2497, 2505
+type 3
+rgc: 0.333
+internal exon: 121:	2631, 2719
+type 2
+rgc: 0.472
+internal exon: 128:	2847, 2920
+type 3
+rgc: 0.446
+internal exon: 124:	3060, 3110
+type 2
+rgc: 0.49
+internal exon: 124:	3223, 3299
+type 2
+rgc: 0.532
+terminal exon: 129:	3837, 4675
+type 1
+rgc: 0.716
+sequence: region-3769
+initial exon: 95:	1000, 1101
+type 3
+rgc: 0.353
+terminal exon: 113:	1183, 1386
+type 3
+rgc: 0.348
+sequence: region-10019
+initial exon: 99:	1000, 1529
+type 1
+rgc: 0.755
+terminal exon: 111:	2478, 2601
+type 1
+rgc: 0.734
+sequence: region-7293
+initial exon: 117:	1000, 1360
+type 1
+rgc: 0.759
+internal exon: 120:	3090, 3161
+type 1
+rgc: 0.764
+terminal exon: 129:	3250, 3503
+type 1
+rgc: 0.744
+sequence: region-2958
+initial exon: 100:	1000, 1202
+type 2
+rgc: 0.502
+terminal exon: 112:	2668, 2803
+type 2
+rgc: 0.544
+sequence: region-965
+initial exon: 96:	1000, 1147
+type 1
+rgc: 0.73
+internal exon: 103:	1595, 1677
+type 2
+rgc: 0.518
+internal exon: 104:	2005, 2163
+type 3
+rgc: 0.459
+internal exon: 103:	2654, 2764
+type 2
+rgc: 0.477
+internal exon: 107:	2870, 2936
+type 3
+rgc: 0.463
+terminal exon: 112:	3041, 3309
+type 2
+rgc: 0.543
+sequence: region-7011
+initial exon: 93:	1000, 1368
+type 1
+rgc: 0.783
+internal exon: 102:	1474, 1581
+type 1
+rgc: 0.685
+internal exon: 104:	5202, 5369
+type 3
+rgc: 0.446
+internal exon: 107:	5461, 5632
+type 3
+rgc: 0.43
+internal exon: 104:	6319, 6392
+type 3
+rgc: 0.446
+terminal exon: 112:	6491, 6571
+type 2
+rgc: 0.568
+sequence: region-14488
+initial exon: 117:	1000, 1149
+type 1
+rgc: 0.667
+internal exon: 127:	1244, 1317
+type 2
+rgc: 0.581
+internal exon: 124:	1408, 1618
+type 2
+rgc: 0.521
+internal exon: 127:	2451, 2685
+type 2
+rgc: 0.515
+terminal exon: 130:	3568, 4625
+type 2
+rgc: 0.515
+sequence: region-11923
+initial exon: 117:	1000, 1129
+type 1
+rgc: 0.715
+internal exon: 122:	2109, 2185
+type 3
+rgc: 0.442
+internal exon: 127:	2274, 2396
+type 2
+rgc: 0.512
+internal exon: 128:	3758, 3862
+type 3
+rgc: 0.419
+internal exon: 128:	5828, 5900
+type 3
+rgc: 0.438
+internal exon: 122:	6016, 6087
+type 3
+rgc: 0.431
+internal exon: 122:	6168, 6363
+type 3
+rgc: 0.444
+internal exon: 125:	6440, 6569
+type 3
+rgc: 0.4
+terminal exon: 137:	6651, 6716
+type 3
+rgc: 0.455
+sequence: region-6581
+single exon: 115:	1000, 1386
+type 2
+rgc: 0.602
+sequence: region-5289
+initial exon: 118:	722, 1771
+type 2
+rgc: 0.615
+terminal exon: 136:	3061, 3180
+type 2
+rgc: 0.483
+sequence: region-6320
+initial exon: 98:	1000, 1138
+type 3
+rgc: 0.41
+internal exon: 107:	1539, 1763
+type 3
+rgc: 0.431
+internal exon: 107:	2179, 2583
+type 3
+rgc: 0.462
+internal exon: 109:	3080, 3494
+type 2
+rgc: 0.489
+terminal exon: 112:	3591, 3912
+type 2
+rgc: 0.534
+sequence: region-3466
+single exon: 116:	1000, 3807
+type 3
+rgc: 0.426
+sequence: region-4648
+initial exon: 93:	1000, 1101
+type 1
+rgc: 0.765
+internal exon: 102:	1179, 1292
+type 1
+rgc: 0.702
+internal exon: 107:	2135, 2234
+type 3
+rgc: 0.43
+internal exon: 110:	3240, 3288
+type 3
+rgc: 0.449
+internal exon: 104:	3388, 3475
+type 3
+rgc: 0.42
+internal exon: 104:	3568, 3678
+type 3
+rgc: 0.36
+internal exon: 104:	4088, 4150
+type 3
+rgc: 0.429
+internal exon: 103:	4259, 4369
+type 2
+rgc: 0.514
+internal exon: 104:	4834, 4899
+type 3
+rgc: 0.47
+internal exon: 104:	5006, 5083
+type 3
+rgc: 0.423
+internal exon: 104:	5870, 5947
+type 3
+rgc: 0.423
+internal exon: 107:	6101, 6167
+type 3
+rgc: 0.463
+internal exon: 104:	6247, 6332
+type 3
+rgc: 0.384
+internal exon: 103:	6618, 6650
+type 2
+rgc: 0.515
+internal exon: 104:	6743, 6775
+type 3
+rgc: 0.394
+internal exon: 110:	7071, 7171
+type 3
+rgc: 0.455
+internal exon: 107:	7303, 7388
+type 3
+rgc: 0.465
+internal exon: 103:	7795, 7901
+type 2
+rgc: 0.477
+internal exon: 103:	8000, 8077
+type 2
+rgc: 0.564
+terminal exon: 113:	8171, 8203
+type 3
+rgc: 0.424
+sequence: region-5793
+initial exon: 117:	1000, 1126
+type 1
+rgc: 0.74
+internal exon: 122:	2427, 2524
+type 3
+rgc: 0.449
+internal exon: 128:	2606, 2782
+type 3
+rgc: 0.446
+internal exon: 128:	2867, 2967
+type 3
+rgc: 0.446
+internal exon: 124:	3110, 3185
+type 2
+rgc: 0.5
+internal exon: 128:	3263, 3322
+type 3
+rgc: 0.467
+internal exon: 127:	3420, 3604
+type 2
+rgc: 0.47
+internal exon: 125:	3701, 3797
+type 3
+rgc: 0.464
+internal exon: 127:	3905, 3991
+type 2
+rgc: 0.506
+internal exon: 128:	4082, 4140
+type 3
+rgc: 0.441
+internal exon: 125:	4264, 4355
+type 3
+rgc: 0.435
+internal exon: 122:	5255, 5332
+type 3
+rgc: 0.423
+internal exon: 122:	5449, 5609
+type 3
+rgc: 0.453
+terminal exon: 137:	5701, 5919
+type 3
+rgc: 0.438
+sequence: region-6496
+initial exon: 97:	1000, 1066
+type 2
+rgc: 0.552
+internal exon: 105:	3049, 4305
+type 1
+rgc: 0.668
+internal exon: 109:	4387, 4414
+type 2
+rgc: 0.607
+terminal exon: 111:	4523, 4685
+type 1
+rgc: 0.693
+sequence: region-677
+initial exon: 93:	1000, 1107
+type 1
+rgc: 0.75
+internal exon: 103:	1817, 1918
+type 2
+rgc: 0.471
+internal exon: 104:	2815, 2958
+type 3
+rgc: 0.438
+internal exon: 104:	3064, 3144
+type 3
+rgc: 0.407
+internal exon: 107:	3236, 3305
+type 3
+rgc: 0.443
+internal exon: 104:	3425, 3495
+type 3
+rgc: 0.465
+internal exon: 110:	3585, 3748
+type 3
+rgc: 0.451
+internal exon: 110:	3827, 3898
+type 3
+rgc: 0.347
+internal exon: 104:	3995, 4232
+type 3
+rgc: 0.412
+internal exon: 104:	4607, 4669
+type 3
+rgc: 0.333
+internal exon: 104:	4752, 5027
+type 3
+rgc: 0.442
+internal exon: 104:	6016, 6129
+type 3
+rgc: 0.386
+internal exon: 107:	6257, 6383
+type 3
+rgc: 0.433
+internal exon: 104:	6473, 6642
+type 3
+rgc: 0.382
+internal exon: 104:	6901, 6999
+type 3
+rgc: 0.424
+internal exon: 109:	9899, 10002
+type 2
+rgc: 0.481
+internal exon: 104:	10110, 10407
+type 3
+rgc: 0.45
+internal exon: 109:	10535, 10767
+type 2
+rgc: 0.511
+internal exon: 110:	11004, 11504
+type 3
+rgc: 0.439
+internal exon: 104:	11580, 11874
+type 3
+rgc: 0.39
+internal exon: 107:	12147, 12330
+type 3
+rgc: 0.408
+terminal exon: 112:	12740, 12822
+type 2
+rgc: 0.506
+sequence: region-13086
+initial exon: 97:	1000, 1300
+type 2
+rgc: 0.601
+internal exon: 107:	2201, 2299
+type 3
+rgc: 0.384
+terminal exon: 112:	2403, 2425
+type 2
+rgc: 0.478
+sequence: region-128
+initial exon: 119:	1000, 1102
+type 3
+rgc: 0.466
+terminal exon: 130:	10227, 10570
+type 2
+rgc: 0.613
+sequence: region-4189
+single exon: 116:	1000, 3759
+type 3
+rgc: 0.456
+sequence: region-12272
+initial exon: 117:	1000, 1563
+type 1
+rgc: 0.683
+internal exon: 128:	1982, 2105
+type 3
+rgc: 0.452
+internal exon: 121:	2305, 2448
+type 2
+rgc: 0.472
+internal exon: 121:	2684, 2836
+type 2
+rgc: 0.484
+internal exon: 122:	3149, 3264
+type 3
+rgc: 0.388
+internal exon: 128:	3361, 3528
+type 3
+rgc: 0.399
+internal exon: 128:	3723, 3953
+type 3
+rgc: 0.446
+terminal exon: 137:	4118, 4270
+type 3
+rgc: 0.431
+sequence: region-12036
+initial exon: 119:	1000, 2569
+type 3
+rgc: 0.418
+internal exon: 122:	2668, 2790
+type 3
+rgc: 0.39
+internal exon: 122:	2875, 3126
+type 3
+rgc: 0.421
+terminal exon: 131:	4306, 4373
+type 3
+rgc: 0.353
+sequence: region-5242
+initial exon: 117:	1000, 1059
+type 1
+rgc: 0.683
+internal exon: 126:	1152, 1637
+type 1
+rgc: 0.784
+terminal exon: 136:	1931, 2026
+type 2
+rgc: 0.573
+sequence: region-2687
+initial exon: 94:	1000, 1092
+type 2
+rgc: 0.581
+terminal exon: 112:	1538, 2782
+type 2
+rgc: 0.56
+sequence: region-1618
+initial exon: 117:	1000, 1326
+type 1
+rgc: 0.713
+terminal exon: 135:	1482, 2111
+type 1
+rgc: 0.729
+sequence: region-14268
+initial exon: 99:	1000, 1160
+type 1
+rgc: 0.689
+internal exon: 103:	1387, 1480
+type 2
+rgc: 0.489
+internal exon: 104:	1725, 1844
+type 3
+rgc: 0.458
+internal exon: 107:	1928, 1976
+type 3
+rgc: 0.408
+internal exon: 109:	2901, 3000
+type 2
+rgc: 0.48
+internal exon: 107:	3112, 3173
+type 3
+rgc: 0.419
+internal exon: 104:	3281, 3342
+type 3
+rgc: 0.468
+terminal exon: 112:	3996, 4103
+type 2
+rgc: 0.472
+sequence: region-2608
+initial exon: 93:	1000, 1146
+type 1
+rgc: 0.735
+internal exon: 103:	1241, 1438
+type 2
+rgc: 0.621
+internal exon: 109:	1994, 2199
+type 2
+rgc: 0.471
+terminal exon: 112:	3241, 3799
+type 2
+rgc: 0.494
+sequence: region-1594
+initial exon: 117:	1000, 1062
+type 1
+rgc: 0.651
+internal exon: 128:	2104, 2289
+type 3
+rgc: 0.446
+internal exon: 127:	2382, 2675
+type 2
+rgc: 0.476
+internal exon: 128:	3304, 3537
+type 3
+rgc: 0.393
+terminal exon: 137:	5198, 5695
+type 3
+rgc: 0.464
+sequence: region-11013
+single exon: 114:	1000, 1572
+type 1
+rgc: 0.723
+sequence: region-11347
+initial exon: 93:	1000, 2124
+type 1
+rgc: 0.682
+internal exon: 109:	2279, 3186
+type 2
+rgc: 0.513
+terminal exon: 112:	3723, 3792
+type 2
+rgc: 0.5
+sequence: region-4047
+initial exon: 117:	1000, 1066
+type 1
+rgc: 0.791
+internal exon: 120:	1146, 1261
+type 1
+rgc: 0.724
+internal exon: 127:	2045, 2143
+type 2
+rgc: 0.606
+internal exon: 127:	2257, 2310
+type 2
+rgc: 0.593
+internal exon: 126:	2400, 2594
+type 1
+rgc: 0.631
+internal exon: 127:	2714, 2798
+type 2
+rgc: 0.553
+internal exon: 121:	3256, 3346
+type 2
+rgc: 0.495
+internal exon: 125:	3437, 3601
+type 3
+rgc: 0.467
+internal exon: 125:	3808, 3927
+type 3
+rgc: 0.425
+internal exon: 124:	4030, 4105
+type 2
+rgc: 0.474
+internal exon: 127:	4190, 4361
+type 2
+rgc: 0.517
+internal exon: 122:	4447, 5357
+type 3
+rgc: 0.445
+internal exon: 128:	5698, 5888
+type 3
+rgc: 0.44
+terminal exon: 133:	5983, 6166
+type 2
+rgc: 0.5
+sequence: region-6733
+initial exon: 99:	1000, 1079
+type 1
+rgc: 0.75
+internal exon: 105:	1176, 1264
+type 1
+rgc: 0.719
+internal exon: 103:	1519, 1586
+type 2
+rgc: 0.471
+internal exon: 103:	1697, 1813
+type 2
+rgc: 0.496
+internal exon: 104:	2112, 2174
+type 3
+rgc: 0.429
+internal exon: 104:	2582, 2686
+type 3
+rgc: 0.419
+internal exon: 104:	2764, 2814
+type 3
+rgc: 0.373
+internal exon: 104:	2989, 3309
+type 3
+rgc: 0.389
+internal exon: 104:	3410, 3616
+type 3
+rgc: 0.459
+terminal exon: 113:	3695, 3988
+type 3
+rgc: 0.469
+sequence: region-10035
+single exon: 115:	1000, 2514
+type 2
+rgc: 0.478
+sequence: region-10280
+initial exon: 99:	1000, 1457
+type 1
+rgc: 0.653
+internal exon: 109:	1577, 1699
+type 2
+rgc: 0.61
+terminal exon: 111:	1812, 2220
+type 1
+rgc: 0.655
+sequence: region-652
+initial exon: 93:	1000, 1221
+type 1
+rgc: 0.685
+internal exon: 109:	1474, 1721
+type 2
+rgc: 0.565
+internal exon: 103:	2217, 2541
+type 2
+rgc: 0.603
+terminal exon: 112:	6481, 6738
+type 2
+rgc: 0.512
+sequence: region-7679
+single exon: 91:	1000, 2835
+type 2
+rgc: 0.564
+sequence: region-1348
+initial exon: 93:	1000, 1713
+type 1
+rgc: 0.751
+terminal exon: 112:	1794, 1886
+type 2
+rgc: 0.484
+sequence: region-9470
+initial exon: 96:	1000, 1231
+type 1
+rgc: 0.647
+internal exon: 106:	1321, 1536
+type 2
+rgc: 0.606
+internal exon: 105:	1622, 2047
+type 1
+rgc: 0.662
+terminal exon: 111:	3053, 3291
+type 1
+rgc: 0.682
+sequence: region-7095
+initial exon: 117:	1000, 1144
+type 1
+rgc: 0.662
+internal exon: 120:	1250, 1354
+type 1
+rgc: 0.638
+internal exon: 121:	1461, 1508
+type 2
+rgc: 0.542
+internal exon: 121:	1668, 1793
+type 2
+rgc: 0.619
+internal exon: 121:	1964, 2104
+type 2
+rgc: 0.518
+terminal exon: 130:	2541, 3706
+type 2
+rgc: 0.504
+sequence: region-4699
+initial exon: 117:	1000, 1428
+type 1
+rgc: 0.716
+internal exon: 128:	2188, 2474
+type 3
+rgc: 0.408
+internal exon: 125:	2924, 3156
+type 3
+rgc: 0.429
+internal exon: 122:	3291, 3448
+type 3
+rgc: 0.329
+terminal exon: 137:	3741, 3842
+type 3
+rgc: 0.431
+ number of bases in the reading frames: 67235 67383 67383
+--- frame = 0 ---    minPatSum = 233
+--- frame = 1 ---    minPatSum = 233
+--- frame = 2 ---    minPatSum = 233
+--- initial frame = 0 ---    minPatSum = 233
+--- initial frame = 1 ---    minPatSum = 233
+--- initial frame = 2 ---    minPatSum = 233
+--- initial frame = 0 ---    minPatSum = 233
+--- initial frame = 1 ---    minPatSum = 233
+--- initial frame = 2 ---    minPatSum = 233
+--- initial frame = 0 ---    minPatSum = 233
+--- initial frame = 1 ---    minPatSum = 233
+--- initial frame = 2 ---    minPatSum = 233
+--- initial frame = 0 ---    minPatSum = 233
+--- initial frame = 1 ---    minPatSum = 233
+--- initial frame = 2 ---    minPatSum = 233
+--- internal exon terminal frame = 0 ---    minPatSum = 233
+--- internal exon terminal frame = 1 ---    minPatSum = 233
+--- internal exon terminal frame = 2 ---    minPatSum = 233
+--- high internal exon terminal frame = 0 ---    minPatSum = 233
+--- high internal exon terminal frame = 1 ---    minPatSum = 233
+--- high internal exon terminal frame = 2 ---    minPatSum = 233
+--- internal exon terminal frame = 0 ---    minPatSum = 233
+--- internal exon terminal frame = 1 ---    minPatSum = 233
+--- internal exon terminal frame = 2 ---    minPatSum = 233
+--- internal exon terminal frame = 0 ---    minPatSum = 233
+--- internal exon terminal frame = 1 ---    minPatSum = 233
+--- internal exon terminal frame = 2 ---    minPatSum = 233
+single exon high : 2
+single exon medium : 7
+single exon low : 2
+initial exon high 0 : 46
+initial exon medium 0 : 13
+initial exon low 0 : 5
+initial exon high 1 : 27
+initial exon medium 1 : 10
+initial exon low 1 : 6
+initial exon high 2 : 18
+initial exon medium 2 : 11
+initial exon low 2 : 3
+internal exon high 0 : 20
+internal exon medium 0 : 86
+internal exon low 0 : 197
+internal exon high 1 : 14
+internal exon medium 1 : 31
+internal exon low 1 : 79
+internal exon high 2 : 9
+internal exon medium 2 : 36
+internal exon low 2 : 83
+terminal exon high : 24
+terminal exon medium : 64
+terminal exon low : 51
+Frequency of stop codons:
+tag:   50 (0.333)
+taa:   33 (0.22)
+tga:   67 (0.447)
+end *EXON*
+** building model for untranslated regions. *UTR*
+polyadenylation signal:
+In 0 cases aataaa or a variant was found
+ending in the window [-19,-7] relative to the tts.
+In 0 cases no such pattern was found.
+pattern frequencies
+used:
+position frequency (w.r.t. base right after polyA signal: tts-/UtrModel/d_polyasig_cleavage+1
+-19   	0
+-18   	0
+-17   	0
+-16   	0
+-15   	0
+-14   	0
+-13   	0
+-12   	0
+-11   	0
+-10   	0
+-9   	0
+-8   	0
+-7   	0
+number of bases used for training tss upwindow markov chain: 0
+5' single:  0
+5' single high:  0
+5' single medium:  0
+5' single low:  0
+5' initial: 0
+5' initial high: 0
+5' initial medium: 0
+5' initial low: 0
+5' internal:0
+5' internal high:0
+5' internal medium:0
+5' internal low:0
+5' terminal:0
+5' terminal high:0
+5' terminal medium:0
+5' terminal low:0
+5' intron:  0
+3' single:  0
+3' single high:  0
+3' single medium:  0
+3' single low:  0
+3' initial: 0
+3' initial high: 0
+3' initial medium: 0
+3' initial low: 0
+3' internal:0
+3' internal high:0
+3' internal medium:0
+3' internal low:0
+3' terminal:0
+3' terminal high:0
+3' terminal medium:0
+3' terminal low:0
+3' intron:  0
+number of sequences used for training of:
+tssMotif: 0
+tssMotifTATA: 0
+tataMotif: 0
+distance from start of first tata motif relative to tss:
+pos	freq
+-37	0
+-36	0
+-35	0
+-34	0
+-33	0
+-32	0
+-31	0
+-30	0
+-29	0
+-28	0
+-27	0
+-26	0
+5' single, initial, internal, terminal mean exon lengths :
+n.a.	n.a.	n.a.	n.a.
+3' single, initial, internal, terminal mean exon lengths :
+n.a.	n.a.	n.a.	n.a.
+Storing parameters to file...
+Writing exon model parameters [1] to file /home/ubuntu/Bio/augustus-2.4/config/species/arabidopsis/generic_exon_probs.pbl.
+Writing UTR model parameters [1] to file /home/ubuntu/Bio/augustus-2.4/config/species/arabidopsis/generic_utr_probs.pbl.

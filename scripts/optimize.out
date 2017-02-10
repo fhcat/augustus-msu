@@ -1,0 +1,878 @@
+Splitting training file into 2 buckets...
+Reading in the meta parameters used for optimization from /home/ubuntu/Bio/augustus-2.4/config/species/arabidopsis/arabidopsis_metapars.cfg...
+Reading in the starting meta parameters from /home/ubuntu/Bio/augustus-2.4/config/species/arabidopsis/arabidopsis_parameters.cfg...
+lowT = 0.5, highT = 0.5bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+starting accuracy: 0.0000, nan, 0.0000, nan, 0.0000, nan, 0.00, 0.00, starting target: nan
+improving parameter /Constant/dss_end curently set to 4
+1-4
+/Constant/dss_end: checking values 1	2	3	4
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4retreive accuracy from previous computation
+values  1	2	3	4
+targets nan	nan	nan	nan
+improving parameter /Constant/dss_start curently set to 3
+1-3
+/Constant/dss_start: checking values 1	2	3
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4retreive accuracy from previous computation
+values  1	2	3
+targets nan	nan	nan
+improving parameter /Constant/ass_start curently set to 3
+1-3
+/Constant/ass_start: checking values 1	2	3
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4retreive accuracy from previous computation
+values  1	2	3
+targets nan	nan	nan
+improving parameter /Constant/ass_end curently set to 2
+0-4
+/Constant/ass_end: checking values 0	1	2	3	4
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4retreive accuracy from previous computation
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+values  0	1	2	3	4
+targets nan	nan	nan	nan	nan
+improving parameter /Constant/ass_upwindow_size curently set to 30
+1-50
+/Constant/ass_upwindow_size: checking values 1	13	25	37	50
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+values  1	13	25	37	50
+targets nan	nan	nan	nan	nan
+improving parameter /IntronModel/d curently set to 100
+100-950
+/IntronModel/d: checking values 100	312	525	737	950
+lowT = 0.4, highT = 0.4retreive accuracy from previous computation
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+values  100	312	525	737	950
+targets nan	nan	nan	nan	nan
+improving parameter /IntronModel/ass_motif_memory curently set to 3
+0-3
+/IntronModel/ass_motif_memory: checking values 0	1	2	3
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4retreive accuracy from previous computation
+values  0	1	2	3
+targets nan	nan	nan	nan
+improving parameter /IntronModel/ass_motif_radius curently set to 3
+0-4
+/IntronModel/ass_motif_radius: checking values 0	1	2	3	4
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4retreive accuracy from previous computation
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+values  0	1	2	3	4
+targets nan	nan	nan	nan	nan
+improving parameter /ExonModel/tis_motif_memory curently set to 3
+0-3
+/ExonModel/tis_motif_memory: checking values 0	1	2	3
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4retreive accuracy from previous computation
+values  0	1	2	3
+targets nan	nan	nan	nan
+improving parameter /ExonModel/tis_motif_radius curently set to 2
+0-3
+/ExonModel/tis_motif_radius: checking values 0	1	2	3
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4retreive accuracy from previous computation
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+values  0	1	2	3
+targets nan	nan	nan	nan
+improving parameter /Constant/trans_init_window curently set to 20
+0-25
+/Constant/trans_init_window: checking values 0	6	12	18	25
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+values  0	6	12	18	25
+targets nan	nan	nan	nan	nan
+improving parameter /Constant/init_coding_len curently set to 15
+0-18
+/Constant/init_coding_len: checking values 0	4	9	13	18
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+values  0	4	9	13	18
+targets nan	nan	nan	nan	nan
+improving parameter /ExonModel/patpseudocount curently set to 5.0
+0.5-5
+/ExonModel/patpseudocount: checking values 0.5	1.625	2.75	3.875	5
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+values  0.5	1.625	2.75	3.875	5
+targets nan	nan	nan	nan	nan
+improving parameter /ExonModel/etpseudocount curently set to 3
+0-10
+/ExonModel/etpseudocount: checking values 0	2	5	7	10
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+values  0	2	5	7	10
+targets nan	nan	nan	nan	nan
+improving parameter /ExonModel/etorder curently set to 2
+0-3
+/ExonModel/etorder: checking values 0	1	2	3
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4retreive accuracy from previous computation
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+values  0	1	2	3
+targets nan	nan	nan	nan
+improving parameter /Constant/intterm_coding_len curently set to 5
+0-13
+/Constant/intterm_coding_len: checking values 0	3	6	9	13
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+values  0	3	6	9	13
+targets nan	nan	nan	nan	nan
+improving parameter /ExonModel/slope_of_bandwidth curently set to 0.3
+0.05-0.6
+/ExonModel/slope_of_bandwidth: checking values 0.05	0.1875	0.325	0.4625	0.6
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+values  0.05	0.1875	0.325	0.4625	0.6
+targets nan	nan	nan	nan	nan
+improving parameter /ExonModel/minwindowcount curently set to 10
+1-15
+/ExonModel/minwindowcount: checking values 1	4	8	11	15
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+values  1	4	8	11	15
+targets nan	nan	nan	nan	nan
+improving parameter /IGenicModel/patpseudocount curently set to 5.0
+0.5-7
+/IGenicModel/patpseudocount: checking values 0.5	2.125	3.75	5.375	7
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+values  0.5	2.125	3.75	5.375	7
+targets nan	nan	nan	nan	nan
+improving parameter /IntronModel/patpseudocount curently set to 5.0
+0.5-7
+/IntronModel/patpseudocount: checking values 0.5	2.125	3.75	5.375	7
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+values  0.5	2.125	3.75	5.375	7
+targets nan	nan	nan	nan	nan
+improving parameter /IntronModel/slope_of_bandwidth curently set to 0.4
+0.05-0.6
+/IntronModel/slope_of_bandwidth: checking values 0.05	0.1875	0.325	0.4625	0.6
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+values  0.05	0.1875	0.325	0.4625	0.6
+targets nan	nan	nan	nan	nan
+improving parameter /IntronModel/minwindowcount curently set to 4
+1-8
+/IntronModel/minwindowcount: checking values 1	2	4	6	8
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4retreive accuracy from previous computation
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+values  1	2	4	6	8
+targets nan	nan	nan	nan	nan
+improving parameter /IntronModel/asspseudocount curently set to 0.00266
+0.0005-0.03
+/IntronModel/asspseudocount: checking values 0.0005	0.007875	0.01525	0.022625	0.03
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+values  0.0005	0.007875	0.01525	0.022625	0.03
+targets nan	nan	nan	nan	nan
+improving parameter /IntronModel/dsspseudocount curently set to 0.0005
+0.0002-0.04
+/IntronModel/dsspseudocount: checking values 0.0002	0.01015	0.0201	0.03005	0.04
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+values  0.0002	0.01015	0.0201	0.03005	0.04
+targets nan	nan	nan	nan	nan
+improving parameter /IntronModel/dssneighborfactor curently set to 0.00173
+0.0001-0.01
+/IntronModel/dssneighborfactor: checking values 0.0001	0.002575	0.00505	0.007525	0.01
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+values  0.0001	0.002575	0.00505	0.007525	0.01
+targets nan	nan	nan	nan	nan
+improving parameter /ExonModel/minPatSum curently set to 233.3
+100-600
+/ExonModel/minPatSum: checking values 100	225	350	475	600
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+values  100	225	350	475	600
+targets nan	nan	nan	nan	nan
+improving parameter /Constant/probNinCoding curently set to 0.23
+0.15-.25
+/Constant/probNinCoding: checking values 0.15	0.175	0.2	0.225	0.25
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+values  0.15	0.175	0.2	0.225	0.25
+targets nan	nan	nan	nan	nan
+improving parameter /Constant/decomp_num_steps curently set to 1
+1-5
+/Constant/decomp_num_steps: checking values 1	2	3	4	5
+lowT = 0.4, highT = 0.4retreive accuracy from previous computation
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+lowT = 0.4, highT = 0.4bucket 
+Line 646
+1 accuracy on bucket1: 0, -nan, 0, -nan, 0, -nan, , 
+Line 646
+2 accuracy on bucket2: 0, -nan, 0, -nan, 0, -nan, , 
+
+values  1	2	3	4	5
+targets nan	nan	nan	nan	nan
+Making final training with the optimized parameters.
+Line 594

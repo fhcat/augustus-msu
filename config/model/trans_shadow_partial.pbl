@@ -1,0 +1,634 @@
+#
+# Transition probabilities and initial Probabilities for the overall HMM 
+#
+# number of states
+74
+#
+# Transition probabilities of the Generalised Hidden-Markov Model
+# Date: 01.04.2003
+
+# Initial probabilities (a priori probs for a state ending at a
+# certain position, e.g. the position before the first nucleotide in
+# the sequence or the last position.
+# only non-zero probabilities
+[Initial]
+# number of states where a start is possible
+79
+# state prob statename
+0   .9      # start intergenic region
+1   .00033    # single Exon High
+2   .00033    # single Exon Medium
+3   .00034    # single Exon Low
+4   .00033    # initial Exon High win 0
+5   .00033    # initial Exon Medium win 0
+6   .00034    # initial Exon Low win 0
+7   .00033    # initial Exon High win 1
+8   .00033    # initial Exon Medium win 1
+9   .00034    # initial Exon Low win 1
+10   .00033    # initial Exon High win 2
+11   .00033    # initial Exon Medium win 2
+12   .00034    # initial Exon Low win 2
+13   .00033    # internal Exon High win 0
+14   .00033    # internal Exon Mediumwin 0
+15   .00034    # internal Exon Low win 0
+16   .00033    # internal Exon High win 1
+17   .00033    # internal Exon Medium win 1
+18   .00034    # internal Exon Low win 1
+19   .00033    # internal Exon High win 2
+20   .00033    # internal Exon Medium win 2
+21   .00034    # internal Exon Low win 2
+22   .00033    # terminal exon High
+23   .00033    # terminal exon Medium
+24   .00034    # terminal exon Low
+25   .001    # lessD0 Intron win 0
+26  .001    # 
+27  .001    # 
+28  .01     # geometric0 Intron win 0
+29  .001    # 
+30  .001    # 
+31  .001    # 
+32  .001    # 
+33  .01     # geometric1 Intron win 1
+34  .001    # 
+35  .001    # 
+36  .001    # 
+37  .001    # 
+38  .01     # geometric2 Intron win 2
+39  .001    # 
+40  .00033    # reverse single Exon High
+41  .00033    # reverse single Exon Medium
+42  .00034    # reverse single Exon Low
+43  .00033    # reverse initial Exon High
+44  .00033    # reverse initial Exon Medium
+45  .00034    # reverse initial Exon Low
+46  .00033    # reverse internal Exon High win 0
+47  .00033    # reverse internal Exon Medium win 0
+48  .00034    # reverse internal Exon Low win 0
+49  .00033    # reverse internal Exon High win 1
+50  .00033    # reverse internal Exon Mediumwin 1
+51  .00034    # reverse internal Exon Low win 1
+52  .00033    # reverse internal Exon High win 2
+53  .00033    # reverse internal Exon Medium win 2
+54  .00034    # reverse internal Exon Low win 2
+55  .00033    # reverse terminal exon High win 0
+56  .00033    # reverse terminal exon Medium win 0
+57  .00034    # reverse terminal exon Low win 0
+58  .00033    # reverse terminal exon High win 1
+59  .00033    # reverse terminal exon Medium win 1
+60  .00034    # reverse terminal exon Low win 1
+61  .00033    # reverse terminal exon High win 2
+62  .00033    # reverse terminal exon Medium win 2
+63  .00034    # reverse terminal exon Low win 2
+64  .001    # reverse lessD0 Intron win 0
+65  .001    # reverse 
+66  .001    # reverse 
+67  .01     # reverse geometric0 Intron win 0
+68  .001    # reverse 
+69  .001    # reverse 
+70  .001    # reverse 
+71  .001    # reverse 
+72  .01     # reverse geometric1 Intron win 1
+73  .001    # reverse 
+74  .001    # reverse 
+75  .001    # reverse 
+76  .001    # reverse 
+77  .01     # reverse geometric2 Intron win 2
+78  .001    # reverse
+
+
+
+# Terminal probabilities (a priori probs for a state ending at
+# the last position.
+# only non-zero probabilities neccessary
+[Terminal]
+# number of states where terminating is possible
+79
+# state prob statename
+0   .9      # start intergenic region
+1   .00033    # single Exon High
+2   .00033    # single Exon Medium
+3   .00034    # single Exon Low
+4   .00033    # initial Exon High win 0
+5   .00033    # initial Exon Medium win 0
+6   .00034    # initial Exon Low win 0
+7   .00033    # initial Exon High win 1
+8   .00033    # initial Exon Medium win 1
+9   .00034    # initial Exon Low win 1
+10   .00033    # initial Exon High win 2
+11   .00033    # initial Exon Medium win 2
+12   .00034    # initial Exon Low win 2
+13   .00033    # internal Exon High win 0
+14   .00033    # internal Exon Mediumwin 0
+15   .00034    # internal Exon Low win 0
+16   .00033    # internal Exon High win 1
+17   .00033    # internal Exon Medium win 1
+18   .00034    # internal Exon Low win 1
+19   .00033    # internal Exon High win 2
+20   .00033    # internal Exon Medium win 2
+21   .00034    # internal Exon Low win 2
+22   .00033    # terminal exon High
+23   .00033    # terminal exon Medium
+24   .00034    # terminal exon Low
+25   .001    # lessD0 Intron win 0
+26  .001    # 
+27  .001    # 
+28  .01     # geometric0 Intron win 0
+29  .001    # 
+30  .001    # 
+31  .001    # 
+32  .001    # 
+33  .01     # geometric1 Intron win 1
+34  .001    # 
+35  .001    # 
+36  .001    # 
+37  .001    # 
+38  .01     # geometric2 Intron win 2
+39  .001    # 
+40  .00033    # reverse single Exon High
+41  .00033    # reverse single Exon Medium
+42  .00034    # reverse single Exon Low
+43  .00033    # reverse initial Exon High
+44  .00033    # reverse initial Exon Medium
+45  .00034    # reverse initial Exon Low
+46  .00033    # reverse internal Exon High win 0
+47  .00033    # reverse internal Exon Medium win 0
+48  .00034    # reverse internal Exon Low win 0
+49  .00033    # reverse internal Exon High win 1
+50  .00033    # reverse internal Exon Mediumwin 1
+51  .00034    # reverse internal Exon Low win 1
+52  .00033    # reverse internal Exon High win 2
+53  .00033    # reverse internal Exon Medium win 2
+54  .00034    # reverse internal Exon Low win 2
+55  .00033    # reverse terminal exon High win 0
+56  .00033    # reverse terminal exon Medium win 0
+57  .00034    # reverse terminal exon Low win 0
+58  .00033    # reverse terminal exon High win 1
+59  .00033    # reverse terminal exon Medium win 1
+60  .00034    # reverse terminal exon Low win 1
+61  .00033    # reverse terminal exon High win 2
+62  .00033    # reverse terminal exon Medium win 2
+63  .00034    # reverse terminal exon Low win 2
+64  .001    # reverse lessD0 Intron win 0
+65  .001    # reverse 
+66  .001    # reverse 
+67  .01     # reverse geometric0 Intron win 0
+68  .001    # reverse 
+69  .001    # reverse 
+70  .001    # reverse 
+71  .001    # reverse 
+72  .01     # reverse geometric1 Intron win 1
+73  .001    # reverse 
+74  .001    # reverse 
+75  .001    # reverse 
+76  .001    # reverse 
+77  .01     # reverse geometric2 Intron win 2
+78  .001    # reverse
+
+#
+# Transition probabilities 
+# only non-zero probabilities
+[Transition]
+#           -----  Igenic region  -----
+# intergenic region
+0 0     .9999
+# single Exon High
+0 1	.000003
+# single Exon Medium
+0 2	.000003
+# single Exon Low
+0 3	.000003
+# initial exon High 0, 40% of the multi exon genes .000014
+0 4	.000004
+# initial exon Medium 0, 40% of the multi exon genes .000014
+0 5	.000004
+# initial exon Low 0, 40% of the multi exon genes .000014
+0 6	.000006
+# initial exon High 1, 43% of the multi exon genes
+0 7	.000004
+# initial exon Medium 1, 43% of the multi exon genes
+0 8	.000004
+# initial exon Low 1, 43% of the multi exon genes
+0 9	.000006
+# initial exon High 2, 17% of the multi exon genes
+0 10	.000004
+# initial exon Medium 2, 17% of the multi exon genes
+0 11	.000004
+# initial exon Low 2, 17% of the multi exon genes
+0 12	.000005
+# reverse single exon High
+0 40	.000003
+# reverse single exon Medium
+0 41	.000003
+# reverse single exon Low
+0 42	.000003
+# reverse terminal exon High 0
+0 55    .000004
+# reverse terminal exon Medium 0
+0 56    .000004
+# reverse terminal exon Low 0
+0 57    .000006
+# reverse terminal exon High 1
+0 58    .000004
+# reverse terminal exon Medium 1
+0 59    .000004
+# reverse terminal exon Low 1
+0 60    .000006
+# reverse terminal exon High 2
+0 61    .000004
+# reverse terminal exon Medium 2
+0 62    .000004
+# reverse terminal exon Low 2
+0 63    .000005
+#           -----  Single Exon High  -----
+# Final Intergenic region
+1 0	1.0
+#           -----  Single Exon Medium  -----
+# Final Intergenic region
+2 0	1.0
+#           -----  Single Exon Low  -----
+# Final Intergenic region
+3 0	1.0
+#           -----  Initial Exon High 0  -----
+# longdss0 Intron
+4 26	1.0
+#           -----  Initial Exon Medium 0  -----
+# longdss0 Intron
+5 26	1.0
+#           -----  Initial Exon Low 0  -----
+# longdss0 Intron
+6 26	1.0
+#           -----  Initial Exon High 1  -----
+# longdss1 Intron
+7 31	1.0
+#           -----  Initial Exon Medium 1  -----
+# longdss1 Intron
+8 31	1.0
+#           -----  Initial Exon Low 1  -----
+# longdss1 Intron
+9 31	1.0
+#           -----  Initial Exon High 2  -----
+# longdss2 Intron
+10 36	1.0
+#           -----  Initial Exon Medium 2  -----
+# longdss2 Intron
+11 36	1.0
+#           -----  Initial Exon Low 2  -----
+# longdss2 Intron
+12 36	1.0
+#           -----  Internal Exon High 0  -----
+# longdss0 Intron
+13 26	   1.0
+#           -----  Internal Exon Medium 0  -----
+# longdss0 Intron
+14 26	   1.0
+#           -----  Internal Exon Low 0  -----
+# longdss0 Intron
+15 26	   1.0
+#           -----  Internal Exon High 1  -----
+# longdss1 Intron
+16 31	   1.0
+#           -----  Internal Exon Medium 1  -----
+# longdss1 Intron
+17 31	   1.0
+#           -----  Internal Exon Low 1  -----
+# longdss1 Intron
+18 31	   1.0
+#           -----  Internal Exon High 2  -----
+# longdss2 Intron
+19 36	   1.0
+#           -----  Internal Exon Medium 2  -----
+# longdss2 Intron
+20 36	   1.0
+#           -----  Internal Exon Low 2  -----
+# longdss2 Intron
+21 36	   1.0
+#           -----  Terminal Exon High  -----
+# intergenic region  
+22 0	   1
+#           -----  Terminal Exon Medium  -----
+# intergenic region  
+23 0	   1
+#           -----  Terminal Exon Low  -----
+# intergenic region  
+24 0	   1
+#           -----  lessD0 Intron 0  -----
+# longass0
+25 29	   1.0
+#           -----  longdss0 Intron 0    -----
+# lessD0
+26 25	.5
+# equalD0
+26 27	.5
+#           -----  equalD0 Intron 0    -----
+# geometric0
+27 28	1.0
+#           -----  geometric0 Intron 0  -----
+# geometric0 intron
+28 28	     .9997447
+# longass0
+28 29	     .0002553
+#           -----  longass0 Intron 0     -----
+# internal exon High 0, 45% of all internal exons 
+29 13	   .1
+# internal exon Medium 0, 45% of all internal exons 
+29 14	   .1
+# internal exon Low 0, 45% of all internal exons 
+29 15	   .1
+# internal exon High 1, 33% of all internal exons 
+29 16	   .1
+# internal exon Medium 1, 33% of all internal exons 
+29 17	   .1
+# internal exon Low 1, 33% of all internal exons 
+29 18	   .1
+# internal exon 2, 22% of all internal exons 
+29 19	   .1
+# internal exon 2, 22% of all internal exons 
+29 20	   .1
+# internal exon 2, 22% of all internal exons 
+29 21	   .1
+# terminal exon High
+29 22	   .033
+# terminal exon Medium 
+29 22	   .033
+# terminal exon low
+29 22	   .034
+#           -----  lessD1 Intron 1  -----
+# longass1
+30 34	   1.0
+#           -----  longdss1 Intron 1    -----
+# lessD1
+31 30      .5
+# equalD1
+31 32      .5
+#           -----  equalD1 Intron 1    -----
+# geometric1
+32 33      1.0
+#           -----  geometric1 Intron 1  -----
+# geometric1 intron
+33 33	     .9997447
+# longass1
+33 34	     .0002553
+#           -----  longass1 Intron 1  -----
+# internal exon High 0, 45% of all internal exons 
+34 13	   .1
+# internal exon Medium 0, 45% of all internal exons 
+34 14	   .1
+# internal exon Low 0, 45% of all internal exons 
+34 15	   .1
+# internal exon High 1, 33% of all internal exons 
+34 16	   .1
+# internal exon Medium 1, 33% of all internal exons 
+34 17	   .1
+# internal exon Low 1, 33% of all internal exons 
+34 18	   .1
+# internal exon High 2, 22% of all internal exons
+34 19	   .1
+# internal exon Medium 2, 22% of all internal exons
+34 20	   .1
+# internal exon Low 2, 22% of all internal exons
+34 21	   .1
+# terminal exon High
+34 22	   .033
+# terminal exon Medium
+34 23	   .033
+# terminal exon Low
+34 24	   .034
+#           -----  lessD2 Intron 2  -----
+# longass2
+35 39	   1.0
+#           -----  longdss2 Intron 2    -----
+# lessD2
+36 35      .5
+# equalD2
+36 37      .5
+#           -----  equalD2 Intron 2    -----
+# geometric0
+37 38      1.0
+#           -----  geometric2 Intron 2  -----
+# geometric2 intron
+38 38	     .9997447
+# longass2
+38 39	     .0002553
+#           -----  longass2 Intron 2     -----
+# internal exon High 0, 45% of all internal exons 
+39 13	   .1
+# internal exon Medium 0, 45% of all internal exons 
+39 14	   .1
+# internal exon Low 0, 45% of all internal exons 
+39 15	   .1
+# internal exon High 1, 33% of all internal exons 
+39 16	   .1
+# internal exon Medium 1, 33% of all internal exons 
+39 17	   .1
+# internal exon Low 1, 33% of all internal exons 
+39 18	   .1
+# internal exon High 2, 22% of all internal exons
+39 19	   .1
+# internal exon Medium 2, 22% of all internal exons
+39 20	   .1
+# internal exon Low 2, 22% of all internal exons
+39 21	   .1
+# terminal exon High
+39 22	   .033
+# terminal exon Medium
+39 23	   .033
+# terminal exon Low
+39 24	   .034
+#
+# ------------------------ reverse strand --------------------------
+#
+#           -----  reverse Single Exon High  -----
+# Intergenic region
+40 0	1.0
+#           -----  reverse Single Exon Medium  -----
+# Intergenic region
+41 0	1.0
+#           -----  reverse Single Exon Low  -----
+# Intergenic region
+42 0	1.0
+#           -----  reverse Initial Exon High   -----
+# Intergenic region
+43 0	1
+#           -----  reverse Initial Exon Medium   -----
+# Intergenic region
+44 0	1
+#           -----  reverse Initial Exon Low   -----
+# Intergenic region
+45 0	1
+#           -----  reverse Internal Exon High 0  -----
+# reverse longass0
+46 68	   1.0
+#           -----  reverse Internal Exon Medium 0  -----
+# reverse longass0
+47 68	   1.0
+#           -----  reverse Internal Exon Low 0  -----
+# reverse longass0
+48 68	   1.0
+#           -----  reverse Internal Exon High 1  -----
+# reverse longass1
+49 73	   1.0
+#           -----  reverse Internal Exon Medium 1  -----
+# reverse longass1
+50 73	   1.0
+#           -----  reverse Internal Exon Medium 1  -----
+# reverse longass1
+51 73	   1.0
+#           -----  reverse Internal Exon High 2  -----
+# reverse longass2
+52 78	   1.0
+#           -----  reverse Internal Exon Medium 2  -----
+# reverse longass2
+53 78	   1.0
+#           -----  reverse Internal Exon Low 2  -----
+# reverse longass2
+54 78	   1.0
+#           -----  reverse Terminal Exon High  0  -----
+# reverse longass0 
+55 68	   1.0
+#           -----  reverse Terminal Exon Medium 0  -----
+# reverse longass0 
+56 68	   1.0
+#           -----  reverse Terminal Exon Low 0  -----
+# reverse longass0 
+57 68	   1.0
+#           -----  reverse Terminal Exon High  1 -----
+# reverse longass1
+58 73	   1.0
+#           -----  reverse Terminal Exon Medium  1 -----
+# reverse longass1
+59 73	   1.0
+#           -----  reverse Terminal Exon Low  1 -----
+# reverse longass1
+60 73	   1.0
+#           -----  reverse Terminal Exon High  2  -----
+# reverse longass2 
+61 78	   1.0
+#           -----  reverse Terminal Exon Medium  2  -----
+# reverse longass2 
+62 78	   1.0
+#           -----  reverse Terminal Exon Low  2  -----
+# reverse longass2 
+63 78	   1.0
+#           -----  reverse lessD0 Intron 0  -----
+# longdss0
+64 65	   1.0
+#           -----  reverse longdss0 Intron 0    -----
+# reverse internal exon High 0, 45% of all internal exons 
+65 46	   .1
+# reverse internal exon Medium 0, 45% of all internal exons 
+65 47	   .1
+# reverse internal exon Low 0, 45% of all internal exons 
+65 48	   .1
+# reverse internal exon High 1, 33% of all internal exons 
+65 49	   .1
+# reverse internal exon Medium 1, 33% of all internal exons 
+65 50	   .1
+# reverse internal exon Low 1, 33% of all internal exons 
+65 51	   .1
+# reverse internal exon High 2, 22% of all internal exons 
+65 52	   .1
+# reverse internal exon Medium 2, 22% of all internal exons 
+65 53	   .1
+# reverse internal exon Low 2, 22% of all internal exons 
+65 54	   .1
+# reverse initial exon High
+65 43	   .033
+# reverse initial exon Medium
+65 44	   .033
+# reverse initial exon Low
+65 45	   .034
+#           -----  reverse equalD0 Intron 0    -----
+# reverse geometric0
+66 67	1.0
+#           -----  reverse geometric0 Intron 0  -----
+# reverse geometric0 intron
+67 67	     .9997447
+# reverse longdss0
+67 65	     .0002553
+#           -----  reverse longass0 Intron 0     -----
+# reverse intron equalD0
+68 66	   .5
+# reverse intron lessD0
+68 64	   .5
+#           -----  reverse lessD1 Intron 1  -----
+# longdss1
+69 70	   1.0
+   #           -----  reverse longdss1 Intron 1    -----
+# reverse internal exon High 0, 45% of all internal exons 
+70 46	   .1
+# reverse internal exon Medium 0, 45% of all internal exons 
+70 47	   .1
+# reverse internal exon Low 0, 45% of all internal exons 
+70 48	   .1
+# reverse internal exon High 1, 33% of all internal exons 
+70 49	   .1
+# reverse internal exon Medium 1, 33% of all internal exons 
+70 50	   .1
+# reverse internal exon Low 1, 33% of all internal exons 
+70 51	   .1
+# reverse internal exon High 2, 22% of all internal exons 
+70 52	   .1
+# reverse internal exon Medium 2, 22% of all internal exons 
+70 53	   .1
+# reverse internal exon Low 2, 22% of all internal exons 
+70 54	   .1
+# reverse initial exon High
+70 43	   .033
+# reverse initial exon Medium
+70 44	   .033
+# reverse initial exon Low
+70 45	   .034
+#           -----  reverse equalD1 Intron 1    -----
+# reverse geometric1
+71 72	1.0
+#           -----  reverse geometric1 Intron 1  -----
+# reverse geometric1 intron
+72 72	     .9997447
+# reverse longdss1
+72 70	     .0002553
+#           -----  reverse longass1 Intron 1     -----
+# reverse intron equalD1
+73 71	   .5
+# reverse intron lessD1
+73 69	   .5
+#           -----  reverse lessD2 Intron 2  -----
+# longdss2
+74 75	   1.0
+#           -----  reverse longdss2 Intron 2    -----
+# reverse internal exon High 0, 45% of all internal exons 
+75 46	   .1
+# reverse internal exon Medium 0, 45% of all internal exons 
+75 47	   .1
+# reverse internal exon Low 0, 45% of all internal exons 
+75 48	   .1
+# reverse internal exon High 1, 33% of all internal exons 
+75 49	   .1
+# reverse internal exon Medium 1, 33% of all internal exons 
+75 50	   .1
+# reverse internal exon Low 1, 33% of all internal exons 
+75 51	   .1
+# reverse internal exon High 2, 22% of all internal exons 
+75 52	   .1
+# reverse internal exon Medium 2, 22% of all internal exons 
+75 53	   .1
+# reverse internal exon Low 2, 22% of all internal exons 
+75 54	   .1
+# reverse initial exon High
+75 43	   .033
+# reverse initial exon Medium
+75 44	   .033
+# reverse initial exon Low
+75 45	   .034
+#           -----  reverse equalD2 Intron 2    -----
+# reverse geometric2
+76 77	1.0
+#           -----  reverse geometric2 Intron 2  -----
+# reverse geometric2 intron
+77 77	     .9997447
+# reverse longdss2
+77 75	     .0002553
+#           -----  reverse longass2 Intron 2     -----
+# reverse intron equalD2
+78 76	   .5
+# reverse intron lessD2
+78 74	   .5
