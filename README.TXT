@@ -1,17 +1,4 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%                                                                                                %
-%           Gene Prediction with the Command-Line Version of AUGUSTUS                            %
-%                                                                                                %
-%             Mario Stanke                                      Oliver Keller                    %
-%             Universität Greifswald                            Universität Göttingen            %
-%             Institut für Mathematik und Informatik            Institut für Informatik          %
-%             17497 Greifswald                                  37077 Göttingen                  %
-%             Fon: +49 3834 864642                                                               %
-%             mstanke@gwdg.de                                   keller@cs.uni-goettingen.de      %
-%                                                                                                %
-%             Date: July 27, 2010                                                                %
-%                                                                                                %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+# some branch
 
   1.  INTRODUCTION
   2.  INSTALLATION
